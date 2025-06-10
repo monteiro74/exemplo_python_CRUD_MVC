@@ -1,0 +1,931 @@
+2025-06-03;17:29:25;grid_alunos;__init__\n2025-06-03;17:29:25;grid_alunos;atualizar_lista\n2025-06-03;17:39:02;grid_alunos;__init__\n2025-06-03;17:39:02;grid_alunos;atualizar_lista\n2025-06-03;19:23:11;grid_alunos;__init__\n2025-06-03;19:23:11;grid_alunos;atualizar_lista\n2025-06-03;19:23:15;grid_alunos;editar_selecionado\n2025-06-03;19:23:15;form_alunos;__init__\n2025-06-03;19:23:15;form_alunos;carregar_dados\n2025-06-03;19:23:20;grid_alunos;editar_selecionado\n2025-06-03;19:23:20;form_alunos;__init__\n2025-06-03;19:23:20;form_alunos;carregar_dados\n2025-06-03;19:23:26;form_alunos;__init__\n2025-06-04;01:42:35;grid_alunos;__init__\n2025-06-04;01:42:35;grid_alunos;atualizar_lista\n2025-06-04;01:42:38;grid_alunos;editar_selecionado\n2025-06-04;01:42:38;form_alunos;__init__\n2025-06-04;01:42:38;form_alunos;carregar_dados\n2025-06-04;01:50:42;main;Script main.py iniciado\n2025-06-04;01:50:42;main;Bloco __main__ sendo executado\n2025-06-04;01:50:42;main;Entrando em MainView.__init__\n2025-06-04;01:50:42;main;Chamou super().__init__\n2025-06-04;01:50:42;main;Antes de chamar _center_window()\n2025-06-04;01:50:42;main;Entrando em _center_window()\n2025-06-04;01:50:42;main;Geometria calculada: 800x600+368+132\n2025-06-04;01:50:42;main;Saindo de _center_window()\n2025-06-04;01:50:42;main;Após chamar _center_window()\n2025-06-04;01:50:42;main;Antes de chamar _load_original_wallpaper()\n2025-06-04;01:50:42;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg\n2025-06-04;01:50:42;main;Imagem original carregada com sucesso\n2025-06-04;01:50:42;main;Após chamar _load_original_wallpaper()\n2025-06-04;01:50:42;main;Criado bg_label para imagem de fundo\n2025-06-04;01:50:42;main;Wallpaper aplicado: 800x600\n2025-06-04;01:50:42;main;Evento <Configure> vinculado para redimensionar wallpaper\n2025-06-04;01:50:42;main;Antes de chamar configurar_menu()\n2025-06-04;01:50:42;main;Entrando em configurar_menu()\n2025-06-04;01:50:42;main;Menu configurado com sucesso\n2025-06-04;01:50:42;main;Após chamar configurar_menu()\n2025-06-04;01:50:42;main;MainView instanciado, entrando em mainloop()\n2025-06-04;01:50:42;main;Janela redimensionada para: 1000x725\n2025-06-04;01:50:42;main;Wallpaper aplicado: 1000x725\n2025-06-04;01:50:42;main;Janela redimensionada para: 1000x725\n2025-06-04;01:50:42;main;Wallpaper aplicado: 1000x725\n2025-06-04;01:50:44;main;Janela redimensionada para: 1000x725\n2025-06-04;01:50:44;main;Wallpaper aplicado: 1000x725\n2025-06-04;01:50:46;main;Chamando abrir_grid_alunos()\n2025-06-04;01:50:46;grid_alunos;__init__\n2025-06-04;01:50:46;grid_alunos;atualizar_lista\n2025-06-04;01:50:50;main;[ERRO] em abrir_grid_alunos(): 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (10061)\n2025-06-04;01:50:50;main;Janela redimensionada para: 1000x725\n2025-06-04;01:50:50;main;Wallpaper aplicado: 1000x725\n2025-06-04;01:51:03;main;Janela redimensionada para: 1000x725\n2025-06-04;01:51:03;main;Wallpaper aplicado: 1000x725\n2025-06-04;01:51:06;main;Chamando abrir_grid_alunos()\n2025-06-04;01:51:06;grid_alunos;__init__\n2025-06-04;01:51:06;grid_alunos;atualizar_lista\n2025-06-04;01:51:06;main;Grade de Alunos instanciada\n2025-06-04;01:51:09;main;Janela redimensionada para: 1000x725\n2025-06-04;01:51:09;main;Wallpaper aplicado: 1000x725\n2025-06-04;01:51:10;main;mainloop() finalizado\n2025-06-04;02:02:30;main;Script main.py iniciado\n2025-06-04;02:02:30;main;Bloco __main__ sendo executado\n2025-06-04;02:02:30;main;Entrando em MainView.__init__\n2025-06-04;02:02:31;main;Chamou super().__init__\n2025-06-04;02:02:31;main;Antes de chamar _center_window()\n2025-06-04;02:02:31;main;Entrando em _center_window()\n2025-06-04;02:02:31;main;Geometria calculada: 800x600+368+132\n2025-06-04;02:02:31;main;Saindo de _center_window()\n2025-06-04;02:02:31;main;Após chamar _center_window()\n2025-06-04;02:02:31;main;Antes de chamar _load_original_wallpaper()\n2025-06-04;02:02:31;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg\n2025-06-04;02:02:31;main;Imagem original carregada com sucesso\n2025-06-04;02:02:31;main;Finalizou tentativa de carregar wallpaper.\n2025-06-04;02:02:31;main;Após chamar _load_original_wallpaper()\n2025-06-04;02:02:31;main;Criado bg_label para imagem de fundo\n2025-06-04;02:02:31;main;Wallpaper aplicado: 800x600\n2025-06-04;02:02:31;main;Finalizou tentativa de aplicar wallpaper.\n2025-06-04;02:02:31;main;Evento <Configure> vinculado para redimensionar wallpaper\n2025-06-04;02:02:31;main;Antes de chamar configurar_menu()\n2025-06-04;02:02:31;main;Entrando em configurar_menu()\n2025-06-04;02:02:31;main;Menu configurado com sucesso\n2025-06-04;02:02:31;main;Após chamar configurar_menu()\n2025-06-04;02:02:31;main;MainView instanciado, entrando em mainloop()\n2025-06-04;02:02:31;main;Janela redimensionada para: 1000x725\n2025-06-04;02:02:31;main;Wallpaper aplicado: 1000x725\n2025-06-04;02:02:31;main;Finalizou tentativa de aplicar wallpaper.\n2025-06-04;02:02:31;main;Janela redimensionada para: 1000x725\n2025-06-04;02:02:31;main;Wallpaper aplicado: 1000x725\n2025-06-04;02:02:31;main;Finalizou tentativa de aplicar wallpaper.\n2025-06-04;02:02:33;main;Janela redimensionada para: 1000x725\n2025-06-04;02:02:33;main;Wallpaper aplicado: 1000x725\n2025-06-04;02:02:33;main;Finalizou tentativa de aplicar wallpaper.\n2025-06-04;02:02:38;main;Janela redimensionada para: 1000x725\n2025-06-04;02:02:38;main;Wallpaper aplicado: 1000x725\n2025-06-04;02:02:38;main;Finalizou tentativa de aplicar wallpaper.\n2025-06-04;02:02:40;main;Chamando abrir_grid_alunos()\n2025-06-04;02:02:40;grid_alunos;__init__\n2025-06-04;02:02:41;grid_alunos;atualizar_lista\n2025-06-04;02:02:41;main;Grade de Alunos instanciada\n2025-06-04;02:02:41;main;Finalizou tentativa de abrir grade de alunos.\n2025-06-04;02:02:41;main;Janela redimensionada para: 1000x725\n2025-06-04;02:02:41;main;Wallpaper aplicado: 1000x725\n2025-06-04;02:02:41;main;Finalizou tentativa de aplicar wallpaper.\n2025-06-04;02:02:42;main;Janela redimensionada para: 1000x725\n2025-06-04;02:02:42;main;Wallpaper aplicado: 1000x725\n2025-06-04;02:02:42;main;Finalizou tentativa de aplicar wallpaper.\n2025-06-04;02:04:19;main;Janela redimensionada para: 1000x725\n2025-06-04;02:04:19;main;Wallpaper aplicado: 1000x725\n2025-06-04;02:04:19;main;Finalizou tentativa de aplicar wallpaper.\n2025-06-04;02:06:37;main;Janela redimensionada para: 1000x725\n2025-06-04;02:06:37;main;Wallpaper aplicado: 1000x725\n2025-06-04;02:06:37;main;Finalizou tentativa de aplicar wallpaper.\n2025-06-04;02:06:39;main;Chamando abrir_grid_alunos()\n2025-06-04;02:06:39;grid_alunos;__init__\n2025-06-04;02:06:39;grid_alunos;atualizar_lista\n2025-06-04;02:06:39;main;Grade de Alunos instanciada\n2025-06-04;02:06:39;main;Finalizou tentativa de abrir grade de alunos.\n2025-06-04;02:06:40;main;Janela redimensionada para: 1000x725\n2025-06-04;02:06:40;main;Wallpaper aplicado: 1000x725\n2025-06-04;02:06:40;main;Finalizou tentativa de aplicar wallpaper.\n2025-06-04;02:06:41;main;mainloop() finalizado\n2025-06-04;02:06:41;main;Execução do main.py finalizada.\n2025-06-04;02:13:17;main;Script main.py iniciado
+2025-06-04;02:13:17;main;Bloco __main__ sendo executado
+2025-06-04;02:13:17;main;Entrando em MainView.__init__
+2025-06-04;02:13:17;main;Chamou super().__init__
+2025-06-04;02:13:17;main;Antes de chamar _center_window()
+2025-06-04;02:13:17;main;Entrando em _center_window()
+2025-06-04;02:13:17;main;Geometria calculada: 800x600+368+132
+2025-06-04;02:13:17;main;Saindo de _center_window()
+2025-06-04;02:13:17;main;Após chamar _center_window()
+2025-06-04;02:13:17;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;02:13:17;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;02:13:17;main;Imagem original carregada com sucesso
+2025-06-04;02:13:17;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;02:13:17;main;Após chamar _load_original_wallpaper()
+2025-06-04;02:13:17;main;Criado bg_label para imagem de fundo
+2025-06-04;02:13:17;main;Wallpaper aplicado: 800x600
+2025-06-04;02:13:17;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:13:17;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;02:13:17;main;Antes de chamar configurar_menu()
+2025-06-04;02:13:17;main;Entrando em configurar_menu()
+2025-06-04;02:13:17;main;Menu configurado com sucesso
+2025-06-04;02:13:17;main;Após chamar configurar_menu()
+2025-06-04;02:13:17;main;MainView instanciado, entrando em mainloop()
+2025-06-04;02:13:17;main;Janela redimensionada para: 1000x725
+2025-06-04;02:13:17;main;Wallpaper aplicado: 1000x725
+2025-06-04;02:13:17;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:13:17;main;Janela redimensionada para: 1000x725
+2025-06-04;02:13:17;main;Wallpaper aplicado: 1000x725
+2025-06-04;02:13:17;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:13:19;main;Chamando abrir_grid_alunos()
+2025-06-04;02:13:19;grid_alunos;__init__
+2025-06-04;02:13:19;grid_alunos;atualizar_lista
+2025-06-04;02:13:19;main;Grade de Alunos instanciada
+2025-06-04;02:13:19;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;02:13:19;main;Janela redimensionada para: 1000x725
+2025-06-04;02:13:19;main;Wallpaper aplicado: 1000x725
+2025-06-04;02:13:19;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:13:20;grid_alunos;editar_selecionado
+2025-06-04;02:13:20;form_alunos;__init__
+2025-06-04;02:13:20;form_alunos;carregar_dados
+2025-06-04;02:13:22;main;Janela redimensionada para: 1000x725
+2025-06-04;02:13:22;main;Wallpaper aplicado: 1000x725
+2025-06-04;02:13:22;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:13:23;main;mainloop() finalizado
+2025-06-04;02:13:23;main;Execução do main.py finalizada.
+2025-06-04;02:28:31;main;Script main.py iniciado
+2025-06-04;02:28:31;main;Bloco __main__ sendo executado
+2025-06-04;02:28:31;main;Entrando em MainView.__init__
+2025-06-04;02:28:31;main;Chamou super().__init__
+2025-06-04;02:28:31;main;Antes de chamar _center_window()
+2025-06-04;02:28:31;main;Entrando em _center_window()
+2025-06-04;02:28:31;main;Geometria calculada: 800x600+368+132
+2025-06-04;02:28:31;main;Saindo de _center_window()
+2025-06-04;02:28:31;main;Após chamar _center_window()
+2025-06-04;02:28:31;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;02:28:31;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;02:28:49;main;[ERRO] ao carregar wallpaper original: Arquivo não encontrado: d:\exemplo\images\wallpaper.jpg
+2025-06-04;02:28:49;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;02:28:49;main;Após chamar _load_original_wallpaper()
+2025-06-04;02:28:49;main;Criado bg_label para imagem de fundo
+2025-06-04;02:28:49;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;02:28:49;main;Antes de chamar configurar_menu()
+2025-06-04;02:28:49;main;Entrando em configurar_menu()
+2025-06-04;02:28:49;main;Menu configurado com sucesso
+2025-06-04;02:28:49;main;Após chamar configurar_menu()
+2025-06-04;02:28:49;main;MainView instanciado, entrando em mainloop()
+2025-06-04;02:28:49;main;Janela redimensionada para: 1000x750
+2025-06-04;02:28:49;main;Janela redimensionada para: 1000x750
+2025-06-04;02:28:49;main;Janela redimensionada para: 1000x750
+2025-06-04;02:29:07;main;mainloop() finalizado
+2025-06-04;02:29:07;main;Execução do main.py finalizada.
+2025-06-04;02:30:06;main;Script main.py iniciado
+2025-06-04;02:30:06;main;Bloco __main__ sendo executado
+2025-06-04;02:30:06;main;Entrando em MainView.__init__
+2025-06-04;02:30:06;main;Chamou super().__init__
+2025-06-04;02:30:06;main;Antes de chamar _center_window()
+2025-06-04;02:30:06;main;Entrando em _center_window()
+2025-06-04;02:30:06;main;Geometria calculada: 800x600+368+132
+2025-06-04;02:30:06;main;Saindo de _center_window()
+2025-06-04;02:30:06;main;Após chamar _center_window()
+2025-06-04;02:30:06;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;02:30:06;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;02:30:06;main;Imagem original carregada com sucesso
+2025-06-04;02:30:06;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;02:30:06;main;Após chamar _load_original_wallpaper()
+2025-06-04;02:30:06;main;Criado bg_label para imagem de fundo
+2025-06-04;02:30:06;main;Wallpaper aplicado: 800x600
+2025-06-04;02:30:06;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:30:06;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;02:30:06;main;Antes de chamar configurar_menu()
+2025-06-04;02:30:06;main;Entrando em configurar_menu()
+2025-06-04;02:30:06;main;Menu configurado com sucesso
+2025-06-04;02:30:06;main;Após chamar configurar_menu()
+2025-06-04;02:30:06;main;MainView instanciado, entrando em mainloop()
+2025-06-04;02:30:06;main;Janela redimensionada para: 1000x725
+2025-06-04;02:30:06;main;Wallpaper aplicado: 1000x725
+2025-06-04;02:30:06;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:30:06;main;Janela redimensionada para: 1000x725
+2025-06-04;02:30:06;main;Wallpaper aplicado: 1000x725
+2025-06-04;02:30:06;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:30:13;main;Janela redimensionada para: 1920x976
+2025-06-04;02:30:13;main;Janela redimensionada para: 1000x725
+2025-06-04;02:30:13;main;Janela redimensionada para: 1000x725
+2025-06-04;02:30:13;main;Wallpaper aplicado: 1000x725
+2025-06-04;02:30:13;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:30:13;main;Wallpaper aplicado: 1000x725
+2025-06-04;02:30:13;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:30:13;main;Wallpaper aplicado: 1920x976
+2025-06-04;02:30:13;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:30:13;main;Janela redimensionada para: 1920x976
+2025-06-04;02:30:14;main;Janela redimensionada para: 1920x976
+2025-06-04;02:30:14;main;Wallpaper aplicado: 1920x976
+2025-06-04;02:30:14;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:30:14;main;Wallpaper aplicado: 1920x976
+2025-06-04;02:30:14;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:30:16;main;Janela redimensionada para: 1000x725
+2025-06-04;02:30:16;main;Janela redimensionada para: 1920x976
+2025-06-04;02:30:16;main;Janela redimensionada para: 1920x976
+2025-06-04;02:30:16;main;Wallpaper aplicado: 1920x976
+2025-06-04;02:30:16;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:30:16;main;Wallpaper aplicado: 1920x976
+2025-06-04;02:30:16;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:30:16;main;Wallpaper aplicado: 1000x725
+2025-06-04;02:30:16;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:30:16;main;Janela redimensionada para: 1000x725
+2025-06-04;02:30:16;main;Janela redimensionada para: 1000x725
+2025-06-04;02:30:16;main;Wallpaper aplicado: 1000x725
+2025-06-04;02:30:16;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:30:16;main;Wallpaper aplicado: 1000x725
+2025-06-04;02:30:16;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;02:30:21;main;mainloop() finalizado
+2025-06-04;02:30:21;main;Execução do main.py finalizada.
+2025-06-04;22:58:57;main;Script main.py iniciado
+2025-06-04;22:58:57;main;Bloco __main__ sendo executado
+2025-06-04;22:58:57;main;Entrando em MainView.__init__
+2025-06-04;22:58:57;main;Chamou super().__init__
+2025-06-04;22:58:57;main;Antes de chamar _center_window()
+2025-06-04;22:58:57;main;Entrando em _center_window()
+2025-06-04;22:58:57;main;Geometria calculada: 800x600+368+132
+2025-06-04;22:58:57;main;Saindo de _center_window()
+2025-06-04;22:58:57;main;Após chamar _center_window()
+2025-06-04;22:58:57;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;22:58:57;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;22:58:57;main;Imagem original carregada com sucesso
+2025-06-04;22:58:57;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;22:58:57;main;Após chamar _load_original_wallpaper()
+2025-06-04;22:58:57;main;Criado bg_label para imagem de fundo
+2025-06-04;22:58:57;main;Wallpaper aplicado: 800x600
+2025-06-04;22:58:57;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;22:58:57;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;22:58:57;main;Antes de chamar configurar_menu()
+2025-06-04;22:58:57;main;Entrando em configurar_menu()
+2025-06-04;22:58:57;main;Menu configurado com sucesso
+2025-06-04;22:58:57;main;Após chamar configurar_menu()
+2025-06-04;22:58:57;main;MainView instanciado, entrando em mainloop()
+2025-06-04;22:58:57;main;Janela redimensionada para: 1000x725
+2025-06-04;22:58:57;main;Wallpaper aplicado: 1000x725
+2025-06-04;22:58:57;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;22:58:57;main;Janela redimensionada para: 1000x725
+2025-06-04;22:58:57;main;Wallpaper aplicado: 1000x725
+2025-06-04;22:58:57;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;22:59:00;main;Janela redimensionada para: 1000x725
+2025-06-04;22:59:00;main;Wallpaper aplicado: 1000x725
+2025-06-04;22:59:00;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;22:59:03;main;Chamando abrir_grafico_quantidade()
+2025-06-04;22:59:03;main;Formulário de Gráfico de Quantidade instanciado
+2025-06-04;22:59:03;main;Finalizou tentativa de abrir gráfico de quantidade.
+2025-06-04;22:59:03;main;Janela redimensionada para: 1000x725
+2025-06-04;22:59:03;main;Wallpaper aplicado: 1000x725
+2025-06-04;22:59:03;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;22:59:05;main;Janela redimensionada para: 1000x725
+2025-06-04;22:59:05;main;Wallpaper aplicado: 1000x725
+2025-06-04;22:59:05;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;22:59:27;main;Janela redimensionada para: 1000x725
+2025-06-04;22:59:27;main;Wallpaper aplicado: 1000x725
+2025-06-04;22:59:27;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;22:59:28;main;Chamando abrir_grid_alunos()
+2025-06-04;22:59:28;grid_alunos;__init__
+2025-06-04;22:59:28;grid_alunos;atualizar_lista
+2025-06-04;22:59:28;main;Grade de Alunos instanciada
+2025-06-04;22:59:28;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;22:59:31;grid_alunos;editar_selecionado
+2025-06-04;22:59:31;form_alunos;__init__
+2025-06-04;22:59:31;form_alunos;carregar_dados
+2025-06-04;22:59:36;main;Janela redimensionada para: 1000x725
+2025-06-04;22:59:36;main;Wallpaper aplicado: 1000x725
+2025-06-04;22:59:36;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;22:59:40;main;Janela redimensionada para: 1000x725
+2025-06-04;22:59:40;main;Wallpaper aplicado: 1000x725
+2025-06-04;22:59:40;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;22:59:40;main;mainloop() finalizado
+2025-06-04;22:59:40;main;Execução do main.py finalizada.
+2025-06-04;23:01:06;main;Script main.py iniciado
+2025-06-04;23:01:06;main;Bloco __main__ sendo executado
+2025-06-04;23:01:06;main;Entrando em MainView.__init__
+2025-06-04;23:01:06;main;Chamou super().__init__
+2025-06-04;23:01:06;main;Antes de chamar _center_window()
+2025-06-04;23:01:06;main;Entrando em _center_window()
+2025-06-04;23:01:06;main;Geometria calculada: 800x600+368+132
+2025-06-04;23:01:06;main;Saindo de _center_window()
+2025-06-04;23:01:06;main;Após chamar _center_window()
+2025-06-04;23:01:06;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;23:01:06;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;23:01:06;main;Imagem original carregada com sucesso
+2025-06-04;23:01:06;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;23:01:06;main;Após chamar _load_original_wallpaper()
+2025-06-04;23:01:06;main;Criado bg_label para imagem de fundo
+2025-06-04;23:01:06;main;Wallpaper aplicado: 800x600
+2025-06-04;23:01:06;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:01:06;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;23:01:06;main;Antes de chamar configurar_menu()
+2025-06-04;23:01:06;main;Entrando em configurar_menu()
+2025-06-04;23:01:06;main;Menu configurado com sucesso
+2025-06-04;23:01:06;main;Após chamar configurar_menu()
+2025-06-04;23:01:06;main;MainView instanciado, entrando em mainloop()
+2025-06-04;23:01:06;main;Janela redimensionada para: 1000x725
+2025-06-04;23:01:06;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:01:06;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:01:06;main;Janela redimensionada para: 1000x725
+2025-06-04;23:01:06;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:01:06;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:01:08;main;Chamando abrir_grid_alunos()
+2025-06-04;23:01:08;grid_alunos;__init__
+2025-06-04;23:01:08;grid_alunos;atualizar_lista
+2025-06-04;23:01:08;main;Grade de Alunos instanciada
+2025-06-04;23:01:08;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;23:01:08;main;Janela redimensionada para: 1000x725
+2025-06-04;23:01:08;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:01:08;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:01:13;grid_alunos;editar_selecionado
+2025-06-04;23:01:13;form_alunos;__init__
+2025-06-04;23:01:13;form_alunos;carregar_dados
+2025-06-04;23:01:21;main;Janela redimensionada para: 1000x725
+2025-06-04;23:01:21;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:01:21;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:01:22;main;mainloop() finalizado
+2025-06-04;23:01:22;main;Execução do main.py finalizada.
+2025-06-04;23:15:51;main;Script main.py iniciado
+2025-06-04;23:15:51;main;Bloco __main__ sendo executado
+2025-06-04;23:15:51;main;Entrando em MainView.__init__
+2025-06-04;23:15:51;main;Chamou super().__init__
+2025-06-04;23:15:51;main;Antes de chamar _center_window()
+2025-06-04;23:15:51;main;Entrando em _center_window()
+2025-06-04;23:15:51;main;Geometria calculada: 800x600+368+132
+2025-06-04;23:15:51;main;Saindo de _center_window()
+2025-06-04;23:15:51;main;Após chamar _center_window()
+2025-06-04;23:15:51;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;23:15:51;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;23:15:51;main;Imagem original carregada com sucesso
+2025-06-04;23:15:51;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;23:15:51;main;Após chamar _load_original_wallpaper()
+2025-06-04;23:15:51;main;Criado bg_label para imagem de fundo
+2025-06-04;23:15:51;main;Wallpaper aplicado: 800x600
+2025-06-04;23:15:51;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:15:51;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;23:15:51;main;Antes de chamar configurar_menu()
+2025-06-04;23:15:51;main;Entrando em configurar_menu()
+2025-06-04;23:15:51;main;Menu configurado com sucesso
+2025-06-04;23:15:51;main;Após chamar configurar_menu()
+2025-06-04;23:15:51;main;MainView instanciado, entrando em mainloop()
+2025-06-04;23:15:51;main;Janela redimensionada para: 1000x725
+2025-06-04;23:15:51;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:15:51;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:15:51;main;Janela redimensionada para: 1000x725
+2025-06-04;23:15:51;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:15:51;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:15:53;main;Chamando abrir_grid_alunos()
+2025-06-04;23:15:53;grid_alunos;__init__
+2025-06-04;23:15:53;grid_alunos;atualizar_lista
+2025-06-04;23:15:53;main;Grade de Alunos instanciada
+2025-06-04;23:15:53;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;23:15:53;main;Janela redimensionada para: 1000x725
+2025-06-04;23:15:53;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:15:53;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:15:56;grid_alunos;editar_selecionado
+2025-06-04;23:15:56;form_alunos;__init__
+2025-06-04;23:15:56;form_alunos;carregar_dados
+2025-06-04;23:16:02;main;Janela redimensionada para: 1000x725
+2025-06-04;23:16:02;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:16:02;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:16:03;main;Janela redimensionada para: 1000x725
+2025-06-04;23:16:03;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:16:03;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:16:04;main;mainloop() finalizado
+2025-06-04;23:16:04;main;Execução do main.py finalizada.
+2025-06-04;23:18:18;main;Script main.py iniciado
+2025-06-04;23:18:18;main;Bloco __main__ sendo executado
+2025-06-04;23:18:18;main;Entrando em MainView.__init__
+2025-06-04;23:18:18;main;Chamou super().__init__
+2025-06-04;23:18:18;main;Antes de chamar _center_window()
+2025-06-04;23:18:18;main;Entrando em _center_window()
+2025-06-04;23:18:18;main;Geometria calculada: 800x600+368+132
+2025-06-04;23:18:18;main;Saindo de _center_window()
+2025-06-04;23:18:18;main;Após chamar _center_window()
+2025-06-04;23:18:18;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;23:18:18;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;23:18:18;main;Imagem original carregada com sucesso
+2025-06-04;23:18:18;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;23:18:18;main;Após chamar _load_original_wallpaper()
+2025-06-04;23:18:18;main;Criado bg_label para imagem de fundo
+2025-06-04;23:18:18;main;Wallpaper aplicado: 800x600
+2025-06-04;23:18:18;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:18:18;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;23:18:18;main;Antes de chamar configurar_menu()
+2025-06-04;23:18:18;main;Entrando em configurar_menu()
+2025-06-04;23:18:18;main;Menu configurado com sucesso
+2025-06-04;23:18:18;main;Após chamar configurar_menu()
+2025-06-04;23:18:18;main;MainView instanciado, entrando em mainloop()
+2025-06-04;23:18:18;main;Janela redimensionada para: 1000x725
+2025-06-04;23:18:19;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:18:19;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:18:19;main;Janela redimensionada para: 1000x725
+2025-06-04;23:18:19;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:18:19;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:18:20;main;Chamando abrir_grid_alunos()
+2025-06-04;23:18:20;grid_alunos;__init__
+2025-06-04;23:18:20;grid_alunos;atualizar_lista
+2025-06-04;23:18:20;main;Grade de Alunos instanciada
+2025-06-04;23:18:20;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;23:18:20;main;Janela redimensionada para: 1000x725
+2025-06-04;23:18:20;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:18:20;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:18:22;grid_alunos;editar_selecionado
+2025-06-04;23:18:22;form_alunos;__init__
+2025-06-04;23:18:22;form_alunos;carregar_dados
+2025-06-04;23:18:31;main;Janela redimensionada para: 1000x725
+2025-06-04;23:18:31;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:18:31;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:18:32;grid_alunos;editar_selecionado
+2025-06-04;23:18:32;form_alunos;__init__
+2025-06-04;23:18:32;form_alunos;carregar_dados
+2025-06-04;23:18:36;main;Janela redimensionada para: 1000x725
+2025-06-04;23:18:36;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:18:36;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:18:38;main;Janela redimensionada para: 1000x725
+2025-06-04;23:18:38;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:18:38;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:18:38;main;mainloop() finalizado
+2025-06-04;23:18:38;main;Execução do main.py finalizada.
+2025-06-04;23:21:26;main;Script main.py iniciado
+2025-06-04;23:21:26;main;Bloco __main__ sendo executado
+2025-06-04;23:21:26;main;Entrando em MainView.__init__
+2025-06-04;23:21:26;main;Chamou super().__init__
+2025-06-04;23:21:26;main;Antes de chamar _center_window()
+2025-06-04;23:21:26;main;Entrando em _center_window()
+2025-06-04;23:21:26;main;Geometria calculada: 800x600+368+132
+2025-06-04;23:21:26;main;Saindo de _center_window()
+2025-06-04;23:21:26;main;Após chamar _center_window()
+2025-06-04;23:21:26;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;23:21:26;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;23:21:26;main;Imagem original carregada com sucesso
+2025-06-04;23:21:26;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;23:21:26;main;Após chamar _load_original_wallpaper()
+2025-06-04;23:21:26;main;Criado bg_label para imagem de fundo
+2025-06-04;23:21:26;main;Wallpaper aplicado: 800x600
+2025-06-04;23:21:26;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:21:26;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;23:21:26;main;Antes de chamar configurar_menu()
+2025-06-04;23:21:26;main;Entrando em configurar_menu()
+2025-06-04;23:21:26;main;Menu configurado com sucesso
+2025-06-04;23:21:26;main;Após chamar configurar_menu()
+2025-06-04;23:21:26;main;MainView instanciado, entrando em mainloop()
+2025-06-04;23:21:26;main;Janela redimensionada para: 1000x725
+2025-06-04;23:21:26;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:21:26;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:21:26;main;Janela redimensionada para: 1000x725
+2025-06-04;23:21:26;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:21:26;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:21:27;main;Chamando abrir_grid_alunos()
+2025-06-04;23:21:27;grid_alunos;__init__
+2025-06-04;23:21:27;grid_alunos;atualizar_lista
+2025-06-04;23:21:27;main;Grade de Alunos instanciada
+2025-06-04;23:21:28;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;23:21:28;main;Janela redimensionada para: 1000x725
+2025-06-04;23:21:28;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:21:28;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:21:30;grid_alunos;editar_selecionado
+2025-06-04;23:21:30;form_alunos;__init__
+2025-06-04;23:21:30;form_alunos;carregar_dados
+2025-06-04;23:21:32;main;Janela redimensionada para: 1000x725
+2025-06-04;23:21:32;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:21:32;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:21:34;main;Janela redimensionada para: 1000x725
+2025-06-04;23:21:34;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:21:34;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:21:36;main;mainloop() finalizado
+2025-06-04;23:21:36;main;Execução do main.py finalizada.
+2025-06-04;23:23:29;main;Script main.py iniciado
+2025-06-04;23:23:29;main;Bloco __main__ sendo executado
+2025-06-04;23:23:29;main;Entrando em MainView.__init__
+2025-06-04;23:23:29;main;Chamou super().__init__
+2025-06-04;23:23:29;main;Antes de chamar _center_window()
+2025-06-04;23:23:29;main;Entrando em _center_window()
+2025-06-04;23:23:29;main;Geometria calculada: 800x600+368+132
+2025-06-04;23:23:29;main;Saindo de _center_window()
+2025-06-04;23:23:29;main;Após chamar _center_window()
+2025-06-04;23:23:29;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;23:23:29;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;23:23:29;main;Imagem original carregada com sucesso
+2025-06-04;23:23:29;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;23:23:29;main;Após chamar _load_original_wallpaper()
+2025-06-04;23:23:29;main;Criado bg_label para imagem de fundo
+2025-06-04;23:23:29;main;Wallpaper aplicado: 800x600
+2025-06-04;23:23:29;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:23:29;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;23:23:29;main;Antes de chamar configurar_menu()
+2025-06-04;23:23:29;main;Entrando em configurar_menu()
+2025-06-04;23:23:29;main;Menu configurado com sucesso
+2025-06-04;23:23:29;main;Após chamar configurar_menu()
+2025-06-04;23:23:29;main;MainView instanciado, entrando em mainloop()
+2025-06-04;23:23:30;main;Janela redimensionada para: 1000x725
+2025-06-04;23:23:30;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:23:30;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:23:30;main;Janela redimensionada para: 1000x725
+2025-06-04;23:23:30;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:23:30;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:23:31;main;Chamando abrir_grid_alunos()
+2025-06-04;23:23:31;grid_alunos;__init__
+2025-06-04;23:23:31;grid_alunos;atualizar_lista
+2025-06-04;23:23:31;main;Grade de Alunos instanciada
+2025-06-04;23:23:31;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;23:23:31;main;Janela redimensionada para: 1000x725
+2025-06-04;23:23:31;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:23:31;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:23:32;grid_alunos;editar_selecionado
+2025-06-04;23:23:32;form_alunos;__init__
+2025-06-04;23:23:32;form_alunos;carregar_dados
+2025-06-04;23:23:37;main;Janela redimensionada para: 1000x725
+2025-06-04;23:23:37;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:23:37;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:23:38;grid_alunos;editar_selecionado
+2025-06-04;23:23:38;form_alunos;__init__
+2025-06-04;23:23:38;form_alunos;carregar_dados
+2025-06-04;23:23:40;main;Janela redimensionada para: 1000x725
+2025-06-04;23:23:40;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:23:40;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:24:23;main;Janela redimensionada para: 1000x725
+2025-06-04;23:24:23;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:24:23;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:24:24;main;Janela redimensionada para: 1000x725
+2025-06-04;23:24:24;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:24:24;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:24:25;main;mainloop() finalizado
+2025-06-04;23:24:25;main;Execução do main.py finalizada.
+2025-06-04;23:24:44;main;Script main.py iniciado
+2025-06-04;23:24:44;main;Bloco __main__ sendo executado
+2025-06-04;23:24:44;main;Entrando em MainView.__init__
+2025-06-04;23:24:44;main;Chamou super().__init__
+2025-06-04;23:24:44;main;Antes de chamar _center_window()
+2025-06-04;23:24:44;main;Entrando em _center_window()
+2025-06-04;23:24:44;main;Geometria calculada: 800x600+368+132
+2025-06-04;23:24:44;main;Saindo de _center_window()
+2025-06-04;23:24:44;main;Após chamar _center_window()
+2025-06-04;23:24:44;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;23:24:44;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;23:24:44;main;Imagem original carregada com sucesso
+2025-06-04;23:24:44;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;23:24:44;main;Após chamar _load_original_wallpaper()
+2025-06-04;23:24:44;main;Criado bg_label para imagem de fundo
+2025-06-04;23:24:44;main;Wallpaper aplicado: 800x600
+2025-06-04;23:24:44;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:24:44;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;23:24:44;main;Antes de chamar configurar_menu()
+2025-06-04;23:24:44;main;Entrando em configurar_menu()
+2025-06-04;23:24:44;main;Menu configurado com sucesso
+2025-06-04;23:24:44;main;Após chamar configurar_menu()
+2025-06-04;23:24:44;main;MainView instanciado, entrando em mainloop()
+2025-06-04;23:24:44;main;Janela redimensionada para: 1000x725
+2025-06-04;23:24:44;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:24:44;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:24:44;main;Janela redimensionada para: 1000x725
+2025-06-04;23:24:44;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:24:44;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:24:46;main;Chamando abrir_form_alunos()
+2025-06-04;23:24:46;form_alunos;__init__
+2025-06-04;23:24:46;main;Formulário de Alunos instanciado
+2025-06-04;23:24:46;main;Finalizou tentativa de abrir formulário de alunos.
+2025-06-04;23:24:46;main;Janela redimensionada para: 1000x725
+2025-06-04;23:24:46;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:24:46;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:24:48;main;Janela redimensionada para: 1000x725
+2025-06-04;23:24:48;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:24:48;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:24:50;main;Chamando abrir_grid_alunos()
+2025-06-04;23:24:50;grid_alunos;__init__
+2025-06-04;23:24:50;grid_alunos;atualizar_lista
+2025-06-04;23:24:50;main;Grade de Alunos instanciada
+2025-06-04;23:24:50;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;23:24:51;grid_alunos;editar_selecionado
+2025-06-04;23:24:51;form_alunos;__init__
+2025-06-04;23:24:51;form_alunos;carregar_dados
+2025-06-04;23:24:53;main;Janela redimensionada para: 1000x725
+2025-06-04;23:24:53;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:24:53;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:24:54;main;Janela redimensionada para: 1000x725
+2025-06-04;23:24:54;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:24:54;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:24:54;main;mainloop() finalizado
+2025-06-04;23:24:54;main;Execução do main.py finalizada.
+2025-06-04;23:26:53;main;Script main.py iniciado
+2025-06-04;23:26:53;main;Bloco __main__ sendo executado
+2025-06-04;23:26:53;main;Entrando em MainView.__init__
+2025-06-04;23:26:53;main;Chamou super().__init__
+2025-06-04;23:26:53;main;Antes de chamar _center_window()
+2025-06-04;23:26:53;main;Entrando em _center_window()
+2025-06-04;23:26:53;main;Geometria calculada: 800x600+368+132
+2025-06-04;23:26:53;main;Saindo de _center_window()
+2025-06-04;23:26:53;main;Após chamar _center_window()
+2025-06-04;23:26:53;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;23:26:53;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;23:26:53;main;Imagem original carregada com sucesso
+2025-06-04;23:26:53;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;23:26:53;main;Após chamar _load_original_wallpaper()
+2025-06-04;23:26:53;main;Criado bg_label para imagem de fundo
+2025-06-04;23:26:53;main;Wallpaper aplicado: 800x600
+2025-06-04;23:26:53;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:26:53;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;23:26:53;main;Antes de chamar configurar_menu()
+2025-06-04;23:26:53;main;Entrando em configurar_menu()
+2025-06-04;23:26:53;main;Menu configurado com sucesso
+2025-06-04;23:26:53;main;Após chamar configurar_menu()
+2025-06-04;23:26:53;main;MainView instanciado, entrando em mainloop()
+2025-06-04;23:26:53;main;Janela redimensionada para: 1000x725
+2025-06-04;23:26:53;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:26:53;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:26:53;main;Janela redimensionada para: 1000x725
+2025-06-04;23:26:53;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:26:53;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:26:54;main;Chamando abrir_grid_alunos()
+2025-06-04;23:26:54;grid_alunos;__init__
+2025-06-04;23:26:54;grid_alunos;atualizar_lista
+2025-06-04;23:26:54;main;Grade de Alunos instanciada
+2025-06-04;23:26:54;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;23:26:54;main;Janela redimensionada para: 1000x725
+2025-06-04;23:26:54;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:26:54;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:26:56;grid_alunos;editar_selecionado
+2025-06-04;23:26:56;form_alunos;__init__
+2025-06-04;23:26:56;form_alunos;carregar_dados
+2025-06-04;23:26:57;main;Janela redimensionada para: 1000x725
+2025-06-04;23:26:57;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:26:57;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:26:58;main;Janela redimensionada para: 1000x725
+2025-06-04;23:26:58;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:26:58;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:26:59;main;mainloop() finalizado
+2025-06-04;23:26:59;main;Execução do main.py finalizada.
+2025-06-04;23:29:08;main;Script main.py iniciado
+2025-06-04;23:29:08;main;Bloco __main__ sendo executado
+2025-06-04;23:29:08;main;Entrando em MainView.__init__
+2025-06-04;23:29:09;main;Chamou super().__init__
+2025-06-04;23:29:09;main;Antes de chamar _center_window()
+2025-06-04;23:29:09;main;Entrando em _center_window()
+2025-06-04;23:29:09;main;Geometria calculada: 800x600+368+132
+2025-06-04;23:29:09;main;Saindo de _center_window()
+2025-06-04;23:29:09;main;Após chamar _center_window()
+2025-06-04;23:29:09;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;23:29:09;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;23:29:09;main;Imagem original carregada com sucesso
+2025-06-04;23:29:09;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;23:29:09;main;Após chamar _load_original_wallpaper()
+2025-06-04;23:29:09;main;Criado bg_label para imagem de fundo
+2025-06-04;23:29:09;main;Wallpaper aplicado: 800x600
+2025-06-04;23:29:09;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:29:09;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;23:29:09;main;Antes de chamar configurar_menu()
+2025-06-04;23:29:09;main;Entrando em configurar_menu()
+2025-06-04;23:29:09;main;Menu configurado com sucesso
+2025-06-04;23:29:09;main;Após chamar configurar_menu()
+2025-06-04;23:29:09;main;MainView instanciado, entrando em mainloop()
+2025-06-04;23:29:09;main;Janela redimensionada para: 1000x725
+2025-06-04;23:29:09;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:29:09;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:29:09;main;Janela redimensionada para: 1000x725
+2025-06-04;23:29:09;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:29:09;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:29:11;main;Chamando abrir_grid_alunos()
+2025-06-04;23:29:11;grid_alunos;__init__
+2025-06-04;23:29:11;grid_alunos;atualizar_lista
+2025-06-04;23:29:11;main;Grade de Alunos instanciada
+2025-06-04;23:29:11;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;23:29:11;main;Janela redimensionada para: 1000x725
+2025-06-04;23:29:11;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:29:11;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:29:14;grid_alunos;editar_selecionado
+2025-06-04;23:29:14;form_alunos;__init__
+2025-06-04;23:29:14;form_alunos;carregar_dados
+2025-06-04;23:29:17;main;Janela redimensionada para: 1000x725
+2025-06-04;23:29:17;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:29:17;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:29:18;main;mainloop() finalizado
+2025-06-04;23:29:18;main;Execução do main.py finalizada.
+2025-06-04;23:29:46;main;Script main.py iniciado
+2025-06-04;23:29:46;main;Bloco __main__ sendo executado
+2025-06-04;23:29:46;main;Entrando em MainView.__init__
+2025-06-04;23:29:47;main;Chamou super().__init__
+2025-06-04;23:29:47;main;Antes de chamar _center_window()
+2025-06-04;23:29:47;main;Entrando em _center_window()
+2025-06-04;23:29:47;main;Geometria calculada: 800x600+368+132
+2025-06-04;23:29:47;main;Saindo de _center_window()
+2025-06-04;23:29:47;main;Após chamar _center_window()
+2025-06-04;23:29:47;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;23:29:47;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;23:29:47;main;Imagem original carregada com sucesso
+2025-06-04;23:29:47;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;23:29:47;main;Após chamar _load_original_wallpaper()
+2025-06-04;23:29:47;main;Criado bg_label para imagem de fundo
+2025-06-04;23:29:47;main;Wallpaper aplicado: 800x600
+2025-06-04;23:29:47;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:29:47;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;23:29:47;main;Antes de chamar configurar_menu()
+2025-06-04;23:29:47;main;Entrando em configurar_menu()
+2025-06-04;23:29:47;main;Menu configurado com sucesso
+2025-06-04;23:29:47;main;Após chamar configurar_menu()
+2025-06-04;23:29:47;main;MainView instanciado, entrando em mainloop()
+2025-06-04;23:29:47;main;Janela redimensionada para: 1000x725
+2025-06-04;23:29:47;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:29:47;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:29:47;main;Janela redimensionada para: 1000x725
+2025-06-04;23:29:47;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:29:47;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:29:48;main;Chamando abrir_grid_alunos()
+2025-06-04;23:29:48;grid_alunos;__init__
+2025-06-04;23:29:48;grid_alunos;atualizar_lista
+2025-06-04;23:29:48;main;Grade de Alunos instanciada
+2025-06-04;23:29:48;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;23:29:48;main;Janela redimensionada para: 1000x725
+2025-06-04;23:29:48;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:29:48;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:29:50;grid_alunos;editar_selecionado
+2025-06-04;23:29:50;form_alunos;__init__
+2025-06-04;23:29:50;form_alunos;carregar_dados
+2025-06-04;23:29:53;main;Janela redimensionada para: 1000x725
+2025-06-04;23:29:53;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:29:53;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:30:19;main;Janela redimensionada para: 1000x725
+2025-06-04;23:30:19;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:30:19;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:30:21;main;Janela redimensionada para: 1000x725
+2025-06-04;23:30:21;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:30:21;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:30:22;main;mainloop() finalizado
+2025-06-04;23:30:22;main;Execução do main.py finalizada.
+2025-06-04;23:30:23;main;Script main.py iniciado
+2025-06-04;23:30:23;main;Bloco __main__ sendo executado
+2025-06-04;23:30:23;main;Entrando em MainView.__init__
+2025-06-04;23:30:23;main;Chamou super().__init__
+2025-06-04;23:30:23;main;Antes de chamar _center_window()
+2025-06-04;23:30:23;main;Entrando em _center_window()
+2025-06-04;23:30:23;main;Geometria calculada: 800x600+368+132
+2025-06-04;23:30:23;main;Saindo de _center_window()
+2025-06-04;23:30:23;main;Após chamar _center_window()
+2025-06-04;23:30:23;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;23:30:23;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;23:30:23;main;Imagem original carregada com sucesso
+2025-06-04;23:30:23;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;23:30:23;main;Após chamar _load_original_wallpaper()
+2025-06-04;23:30:23;main;Criado bg_label para imagem de fundo
+2025-06-04;23:30:23;main;Wallpaper aplicado: 800x600
+2025-06-04;23:30:23;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:30:23;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;23:30:23;main;Antes de chamar configurar_menu()
+2025-06-04;23:30:23;main;Entrando em configurar_menu()
+2025-06-04;23:30:23;main;Menu configurado com sucesso
+2025-06-04;23:30:23;main;Após chamar configurar_menu()
+2025-06-04;23:30:23;main;MainView instanciado, entrando em mainloop()
+2025-06-04;23:30:23;main;Janela redimensionada para: 1000x725
+2025-06-04;23:30:23;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:30:23;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:30:23;main;Janela redimensionada para: 1000x725
+2025-06-04;23:30:23;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:30:23;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:30:24;main;Chamando abrir_grid_alunos()
+2025-06-04;23:30:24;grid_alunos;__init__
+2025-06-04;23:30:24;grid_alunos;atualizar_lista
+2025-06-04;23:30:24;main;Grade de Alunos instanciada
+2025-06-04;23:30:24;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;23:30:24;main;Janela redimensionada para: 1000x725
+2025-06-04;23:30:24;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:30:24;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:30:26;grid_alunos;editar_selecionado
+2025-06-04;23:30:26;form_alunos;__init__
+2025-06-04;23:30:26;form_alunos;carregar_dados
+2025-06-04;23:30:28;main;Janela redimensionada para: 1000x725
+2025-06-04;23:30:28;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:30:28;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:30:29;main;Janela redimensionada para: 1000x725
+2025-06-04;23:30:29;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:30:29;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:30:29;main;mainloop() finalizado
+2025-06-04;23:30:29;main;Execução do main.py finalizada.
+2025-06-04;23:31:59;main;Script main.py iniciado
+2025-06-04;23:31:59;main;Bloco __main__ sendo executado
+2025-06-04;23:31:59;main;Entrando em MainView.__init__
+2025-06-04;23:31:59;main;Chamou super().__init__
+2025-06-04;23:31:59;main;Antes de chamar _center_window()
+2025-06-04;23:31:59;main;Entrando em _center_window()
+2025-06-04;23:31:59;main;Geometria calculada: 800x600+368+132
+2025-06-04;23:31:59;main;Saindo de _center_window()
+2025-06-04;23:31:59;main;Após chamar _center_window()
+2025-06-04;23:31:59;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;23:31:59;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;23:31:59;main;Imagem original carregada com sucesso
+2025-06-04;23:31:59;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;23:31:59;main;Após chamar _load_original_wallpaper()
+2025-06-04;23:31:59;main;Criado bg_label para imagem de fundo
+2025-06-04;23:31:59;main;Wallpaper aplicado: 800x600
+2025-06-04;23:31:59;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:31:59;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;23:31:59;main;Antes de chamar configurar_menu()
+2025-06-04;23:31:59;main;Entrando em configurar_menu()
+2025-06-04;23:31:59;main;Menu configurado com sucesso
+2025-06-04;23:31:59;main;Após chamar configurar_menu()
+2025-06-04;23:31:59;main;MainView instanciado, entrando em mainloop()
+2025-06-04;23:31:59;main;Janela redimensionada para: 1000x725
+2025-06-04;23:31:59;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:31:59;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:31:59;main;Janela redimensionada para: 1000x725
+2025-06-04;23:31:59;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:31:59;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:32:03;main;Chamando abrir_form_alunos()
+2025-06-04;23:32:03;form_alunos;__init__
+2025-06-04;23:32:03;main;Formulário de Alunos instanciado
+2025-06-04;23:32:03;main;Finalizou tentativa de abrir formulário de alunos.
+2025-06-04;23:32:03;main;Janela redimensionada para: 1000x725
+2025-06-04;23:32:03;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:32:03;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:32:08;main;Janela redimensionada para: 1000x725
+2025-06-04;23:32:08;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:32:08;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:32:10;main;Chamando abrir_form_alunos()
+2025-06-04;23:32:10;form_alunos;__init__
+2025-06-04;23:32:10;main;Formulário de Alunos instanciado
+2025-06-04;23:32:10;main;Finalizou tentativa de abrir formulário de alunos.
+2025-06-04;23:32:11;main;Janela redimensionada para: 1000x725
+2025-06-04;23:32:12;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:32:12;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:32:37;main;Janela redimensionada para: 1000x725
+2025-06-04;23:32:37;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:32:37;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:32:38;main;Chamando abrir_grid_alunos()
+2025-06-04;23:32:38;grid_alunos;__init__
+2025-06-04;23:32:38;grid_alunos;atualizar_lista
+2025-06-04;23:32:38;main;Grade de Alunos instanciada
+2025-06-04;23:32:38;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;23:32:41;grid_alunos;editar_selecionado
+2025-06-04;23:32:41;form_alunos;__init__
+2025-06-04;23:32:41;form_alunos;carregar_dados
+2025-06-04;23:32:46;main;Janela redimensionada para: 1000x725
+2025-06-04;23:32:46;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:32:46;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:32:47;main;mainloop() finalizado
+2025-06-04;23:32:47;main;Execução do main.py finalizada.
+2025-06-04;23:33:04;main;Script main.py iniciado
+2025-06-04;23:33:04;main;Bloco __main__ sendo executado
+2025-06-04;23:33:04;main;Entrando em MainView.__init__
+2025-06-04;23:33:04;main;Chamou super().__init__
+2025-06-04;23:33:04;main;Antes de chamar _center_window()
+2025-06-04;23:33:04;main;Entrando em _center_window()
+2025-06-04;23:33:04;main;Geometria calculada: 800x600+368+132
+2025-06-04;23:33:04;main;Saindo de _center_window()
+2025-06-04;23:33:04;main;Após chamar _center_window()
+2025-06-04;23:33:04;main;Antes de chamar _load_original_wallpaper()
+2025-06-04;23:33:04;main;Tentando carregar imagem em: d:\exemplo\images\wallpaper.jpg
+2025-06-04;23:33:04;main;Imagem original carregada com sucesso
+2025-06-04;23:33:04;main;Finalizou tentativa de carregar wallpaper.
+2025-06-04;23:33:04;main;Após chamar _load_original_wallpaper()
+2025-06-04;23:33:04;main;Criado bg_label para imagem de fundo
+2025-06-04;23:33:04;main;Wallpaper aplicado: 800x600
+2025-06-04;23:33:04;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:33:04;main;Evento <Configure> vinculado para redimensionar wallpaper
+2025-06-04;23:33:04;main;Antes de chamar configurar_menu()
+2025-06-04;23:33:04;main;Entrando em configurar_menu()
+2025-06-04;23:33:04;main;Menu configurado com sucesso
+2025-06-04;23:33:04;main;Após chamar configurar_menu()
+2025-06-04;23:33:04;main;MainView instanciado, entrando em mainloop()
+2025-06-04;23:33:04;main;Janela redimensionada para: 1000x725
+2025-06-04;23:33:04;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:33:04;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:33:04;main;Janela redimensionada para: 1000x725
+2025-06-04;23:33:04;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:33:04;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:33:05;main;Chamando abrir_grid_alunos()
+2025-06-04;23:33:05;grid_alunos;__init__
+2025-06-04;23:33:05;grid_alunos;atualizar_lista
+2025-06-04;23:33:05;main;Grade de Alunos instanciada
+2025-06-04;23:33:05;main;Finalizou tentativa de abrir grade de alunos.
+2025-06-04;23:33:05;main;Janela redimensionada para: 1000x725
+2025-06-04;23:33:05;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:33:05;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:33:07;grid_alunos;editar_selecionado
+2025-06-04;23:33:07;form_alunos;__init__
+2025-06-04;23:33:07;form_alunos;carregar_dados
+2025-06-04;23:33:10;main;Janela redimensionada para: 1000x725
+2025-06-04;23:33:10;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:33:10;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:33:11;main;Janela redimensionada para: 1000x725
+2025-06-04;23:33:11;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:33:11;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:33:13;main;Chamando abrir_form_alunos()
+2025-06-04;23:33:13;form_alunos;__init__
+2025-06-04;23:33:13;main;Formulário de Alunos instanciado
+2025-06-04;23:33:13;main;Finalizou tentativa de abrir formulário de alunos.
+2025-06-04;23:33:16;main;Janela redimensionada para: 1000x725
+2025-06-04;23:33:16;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:33:16;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:33:18;main;Chamando abrir_grafico_quantidade()
+2025-06-04;23:33:18;main;Formulário de Gráfico de Quantidade instanciado
+2025-06-04;23:33:18;main;Finalizou tentativa de abrir gráfico de quantidade.
+2025-06-04;23:33:19;main;Janela redimensionada para: 1000x725
+2025-06-04;23:33:19;main;Wallpaper aplicado: 1000x725
+2025-06-04;23:33:19;main;Finalizou tentativa de aplicar wallpaper.
+2025-06-04;23:33:21;main;mainloop() finalizado
+2025-06-04;23:33:21;main;Execução do main.py finalizada.
+2025-06-04;23:50:09;main;Script main.py iniciado
+2025-06-04;23:50:09;main;Entrando em MainView.__init__
+2025-06-04;23:50:09;main;Chamou super().__init__
+2025-06-04;23:50:17;grid_pets;__init__
+2025-06-04;23:50:24;form_pets;__init__
+2025-06-04;23:50:51;main;Script main.py iniciado
+2025-06-04;23:50:51;main;Entrando em MainView.__init__
+2025-06-04;23:50:51;main;Chamou super().__init__
+2025-06-04;23:50:53;grid_pets;__init__
+2025-06-04;23:50:55;form_pets;__init__
+2025-06-04;23:51:17;main;Script main.py iniciado
+2025-06-04;23:51:17;main;Entrando em MainView.__init__
+2025-06-04;23:51:17;main;Chamou super().__init__
+2025-06-04;23:51:19;grid_pets;__init__
+2025-06-04;23:51:20;form_pets;__init__
+2025-06-04;23:51:45;main;Script main.py iniciado
+2025-06-04;23:51:45;main;Entrando em MainView.__init__
+2025-06-04;23:51:45;main;Chamou super().__init__
+2025-06-04;23:51:47;grid_pets;__init__
+2025-06-04;23:51:50;form_pets;__init__
+2025-06-04;23:52:19;main;Script main.py iniciado
+2025-06-04;23:52:19;main;Entrando em MainView.__init__
+2025-06-04;23:52:19;main;Chamou super().__init__
+2025-06-04;23:52:21;grid_pets;__init__
+2025-06-04;23:52:24;form_pets;__init__
+2025-06-04;23:52:59;main;Script main.py iniciado
+2025-06-04;23:52:59;main;Entrando em MainView.__init__
+2025-06-04;23:52:59;main;Chamou super().__init__
+2025-06-04;23:53:01;grid_pets;__init__
+2025-06-04;23:53:02;form_pets;__init__
+2025-06-04;23:54:43;main;Script main.py iniciado
+2025-06-04;23:54:43;main;Entrando em MainView.__init__
+2025-06-04;23:54:43;main;Chamou super().__init__
+2025-06-04;23:54:45;grid_pets;__init__
+2025-06-04;23:54:46;form_pets;__init__
+2025-06-05;17:57:38;main;Script main.py iniciado
+2025-06-05;17:57:38;main;Entrando em MainView.__init__
+2025-06-05;17:57:38;main;Chamou super().__init__
+2025-06-05;17:57:51;main;Script main.py iniciado
+2025-06-05;17:57:51;main;Entrando em MainView.__init__
+2025-06-05;17:57:51;main;Chamou super().__init__
+2025-06-05;17:58:18;main;Script main.py iniciado
+2025-06-05;17:58:18;main;Entrando em MainView.__init__
+2025-06-05;17:58:18;main;Chamou super().__init__
+2025-06-05;18:02:20;main;Script main.py iniciado
+2025-06-05;18:02:20;main;Entrando em MainView.__init__
+2025-06-05;18:02:20;main;Chamou super().__init__
+2025-06-05;18:06:52;main;Script main.py iniciado
+2025-06-05;18:06:52;main;Entrando em MainView.__init__
+2025-06-05;18:06:52;main;Chamou super().__init__
+2025-06-05;18:08:40;main;Script main.py iniciado
+2025-06-05;18:08:40;main;Entrando em MainView.__init__
+2025-06-05;18:08:40;main;Chamou super().__init__
+2025-06-05;18:08:52;main;Script main.py iniciado
+2025-06-05;18:08:52;main;Entrando em MainView.__init__
+2025-06-05;18:08:52;main;Chamou super().__init__
+2025-06-05;18:09:57;main;Script main.py iniciado
+2025-06-05;18:09:57;main;Entrando em MainView.__init__
+2025-06-05;18:09:57;main;Chamou super().__init__
+2025-06-05;18:11:31;main;Script main.py iniciado
+2025-06-05;18:11:31;main;Entrando em MainView.__init__
+2025-06-05;18:11:31;main;Chamou super().__init__
+2025-06-05;18:11:49;main;ERRO: image "<customtkinter.windows.widgets.image.ctk_image.CTkImage object at 0x0000017499D6EA50>" doesn't exist
+2025-06-05;18:11:50;main;ERRO: image "<customtkinter.windows.widgets.image.ctk_image.CTkImage object at 0x0000017499D6F860>" doesn't exist
+2025-06-05;18:11:51;main;ERRO: image "<customtkinter.windows.widgets.image.ctk_image.CTkImage object at 0x0000017499D6F530>" doesn't exist
+2025-06-05;18:12:00;main;Script main.py iniciado
+2025-06-05;18:12:00;main;Entrando em MainView.__init__
+2025-06-05;18:12:00;main;Chamou super().__init__
+2025-06-05;18:13:38;main;ERRO: image "<customtkinter.windows.widgets.image.ctk_image.CTkImage object at 0x000001749A6889E0>" doesn't exist
+2025-06-05;18:13:38;main;ERRO: image "<customtkinter.windows.widgets.image.ctk_image.CTkImage object at 0x000001749A6897C0>" doesn't exist
+2025-06-05;18:13:39;main;ERRO: image "<customtkinter.windows.widgets.image.ctk_image.CTkImage object at 0x000001749A6894C0>" doesn't exist
+2025-06-05;18:14:31;main;Script main.py iniciado
+2025-06-05;18:14:31;main;Entrando em MainView.__init__
+2025-06-05;18:14:31;main;Chamou super().__init__
+2025-06-05;18:14:37;grid_pets;__init__
+2025-06-05;18:15:39;main;Script main.py iniciado
+2025-06-05;18:15:39;main;Entrando em MainView.__init__
+2025-06-05;18:15:39;main;Chamou super().__init__
+2025-06-05;18:16:29;main;ERRO abrir_mestre_detalhe: 'cpf'
+2025-06-05;18:17:28;main;Script main.py iniciado
+2025-06-05;18:17:28;main;Entrando em MainView.__init__
+2025-06-05;18:17:28;main;Chamou super().__init__
+2025-06-05;18:20:40;main;Script main.py iniciado
+2025-06-05;18:20:40;main;Entrando em MainView.__init__
+2025-06-05;18:20:40;main;Chamou super().__init__
+2025-06-05;18:21:23;main;Script main.py iniciado
+2025-06-05;18:21:23;main;Entrando em MainView.__init__
+2025-06-05;18:21:23;main;Chamou super().__init__
+2025-06-05;18:35:39;main;Script main.py iniciado
+2025-06-05;18:35:39;main;Entrando em MainView.__init__
+2025-06-05;18:35:39;main;Chamou super().__init__
+2025-06-05;18:35:41;grid_alunos;__init__
+2025-06-05;18:35:41;grid_alunos;atualizar_lista
+2025-06-05;18:35:42;grid_alunos;editar_selecionado
+2025-06-05;18:35:42;form_alunos;__init__
+2025-06-05;18:35:42;form_alunos;carregar_dados
+2025-06-05;18:44:58;main;Script main.py iniciado
+2025-06-05;18:44:58;main;Entrando em MainView.__init__
+2025-06-05;18:44:58;main;Chamou super().__init__
+2025-06-05;18:45:00;grid_alunos;__init__
+2025-06-05;18:45:00;grid_alunos;atualizar_lista
+2025-06-05;18:45:02;grid_alunos;editar_selecionado
+2025-06-05;18:45:02;form_alunos;__init__
+2025-06-05;18:45:02;form_alunos;carregar_dados
+2025-06-10;16:33:49;main;Script main.py iniciado
+2025-06-10;16:33:49;main;Entrando em MainView.__init__
+2025-06-10;16:33:49;main;Chamou super().__init__
+2025-06-10;16:33:58;grid_alunos;__init__
+2025-06-10;16:33:58;grid_alunos;atualizar_lista
+2025-06-10;16:38:08;main;Script main.py iniciado
+2025-06-10;16:38:08;main;Entrando em MainView.__init__
+2025-06-10;16:38:08;main;Chamou super().__init__
+2025-06-10;16:38:11;grid_alunos;__init__
+2025-06-10;16:38:11;grid_alunos;atualizar_lista
+2025-06-10;16:38:13;grid_alunos;editar_selecionado
+2025-06-10;16:38:13;form_alunos;__init__
+2025-06-10;16:38:13;form_alunos;carregar_dados
