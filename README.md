@@ -117,6 +117,12 @@ Exemplo:
 
 ### 3.1.8. Relatórios
 
+O relatório é gerado por report_alunos.py e produz como saída um PDF na pasta raiz do projeto.
+
+![]()
+
+
+
 ### 3.1.9. Form modal
 
 ### 3.1.10. Script SQL
