@@ -91,7 +91,7 @@ Exemplo definido em grid_alunos.py
 
 Exemplo definido em form_alunos.py
 
-<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/form_alunos.png" alt="form_alunos.py" width="600"/>
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/form_alunos.png" alt="form_alunos.py" width="400"/>
 
 ### 3.1.4. Mestre detalhe
 
