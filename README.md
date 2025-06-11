@@ -77,6 +77,8 @@ imagens no banco de dados, gráficos, exportação de dados.
 
 ### 3.1.1. Menu
 
+![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/menu.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/menu.png)
+
 ### 3.1.2. Grid
 
 ### 3.1.3. Form
