@@ -145,7 +145,10 @@ def abrir_form_alunos(self):
 
 ### 3.1.10. Script SQL
 
+O scrip para criar as tabelas do banco de dados estão na pasta db_script.
+Este exemplo trabalho com  duas tabelas, são elas:
 
+![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/der.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/der.png)
 
 ### 3.1.11. Acesso ao banco de dados 
 
