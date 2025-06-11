@@ -85,22 +85,20 @@ imagens no banco de dados, gráficos, exportação de dados.
 
 Exemplo definido em grid_alunos.py
 
-![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/grid_alunos.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/grid_alunos.png)
-
-
 <img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/grid_alunos.png" alt="grid_alunos.py" width="600"/>
 
 ### 3.1.3. Form
 
 Exemplo definido em form_alunos.py
 
-![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/form_alunos.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/form_alunos.png)
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/form_alunos.png" alt="form_alunos.py" width="600"/>
 
 ### 3.1.4. Mestre detalhe
 
 Exemplo definido em form_mestre_detalhe.py
 
-![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/mestre_detalhe.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/mestre_detalhe.png)
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/mestre_detalhe.png" alt="form_mestre_detalhe.py" width="600"/>
+
 
 ### 3.1.5. Documentação de código
 
@@ -112,17 +110,18 @@ Uma docstring é uma literal de string que ocorre como a primeira instrução na
 
 Exemplo:
 
-![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/docstrings.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/docstrings.png)
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/docstrings.png" alt="docstrings" width="500"/>
+
 
 ### 3.1.7. Funções
 
-![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/funcao.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/funcao.png)
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/funcao.png" alt="funcoes" width="500"/>
 
 ### 3.1.8. Relatórios
 
 O relatório é gerado por report_alunos.py e produz como saída um PDF na pasta raiz do projeto.
 
-![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/relatorio.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/relatorio.png)
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/relatorio.png" alt="relatorios" width="500"/>
 
 ### 3.1.9. Form modal
 
@@ -151,7 +150,7 @@ def abrir_form_alunos(self):
 O scrip para criar as tabelas do banco de dados estão na pasta db_script.
 Este exemplo trabalho com  duas tabelas, são elas:
 
-![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/der.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/der.png)
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/der.png" alt="Script SQL" width="500"/>
 
 ### 3.1.11. Acesso ao banco de dados 
 
@@ -159,7 +158,7 @@ Este exemplo trabalho com  duas tabelas, são elas:
 
 ### 3.1.13. Tratamento de erros (try...except)
 
-![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/try_except3.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/try_except3.png)
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/try_except3.png" alt="Bloco Try...Except" width="500"/>
 
 ### 3.1.14. Gravação de imagens no banco de dados
 
