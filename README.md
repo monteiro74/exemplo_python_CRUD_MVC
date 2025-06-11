@@ -192,7 +192,9 @@ def obter_conexao():
 
 ### 3.1.12. Geração de eventos e logs
 
+O arquivo de log, logs.csv este formato com ponto e vírgula, pode ser lido por outras ferramentas e é gerado pelo módulo logger.py.
 
+![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/logs.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/logs.png)
 
 ### 3.1.13. Tratamento de erros (try...except)
 
