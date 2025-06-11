@@ -34,9 +34,9 @@ class FormIdadeAlunos(ctk.CTkToplevel):
         idades = obter_idades_alunos()
         faixas = ["18-25", "26-30", "31-40", "41-50", "51+"]
         qtd_idades = [0, 0, 0, 0, 0]
-
-        # Contagem por faixa etária
         for idade in idades:
+            if idade is None:
+                continue
             if 18 <= idade <= 25:
                 qtd_idades[0] += 1
             elif 26 <= idade <= 30:
@@ -47,8 +47,6 @@ class FormIdadeAlunos(ctk.CTkToplevel):
                 qtd_idades[3] += 1
             else:
                 qtd_idades[4] += 1
-
-        # Plotar o gráfico
         fig, ax = plt.subplots()
         ax.bar(faixas, qtd_idades)
         ax.set_title("Distribuição de Idade dos Alunos")
