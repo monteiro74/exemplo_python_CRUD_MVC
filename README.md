@@ -277,9 +277,9 @@ Na raiz do projeto temos 3 arquivos:
 
 ![Tela4](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/tela4.png)
 
-![Tela5](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/tela5.png)
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/grid_alunos.png" alt="grid_alunos.py" width="600"/>
 
-![Tela6](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/tela6.png)
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/form_alunos.png" alt="form_alunos.py" width="400"/>
 
 ![Tela7](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/tela7.png)
 
