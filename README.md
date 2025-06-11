@@ -23,6 +23,7 @@
     - [3.1.14. Gravação de imagens no banco de dados](#3114-gravação-de-imagens-no-banco-de-dados)
     - [3.1.15. Gráficos](#3115-gráficos)
     - [3.1.16. Exportação de dados](#3116-exportação-de-dados)
+    - [3.1.17. Carregamento de imagem (wallpaper)](#3117-carregamento-de-imagem-wallpaper)
   - [3.2. Limitações](#32-limitações)
     - [3.3. Diagrama de sub pastas do projeto:](#33-diagrama-de-sub-pastas-do-projeto)
   - [3.3.1. Descrição de pastas](#331-descrição-de-pastas)
@@ -32,6 +33,7 @@
   - [🧭 4.2. Diagrama de Navegação](#-42-diagrama-de-navegação)
   - [🧱 4.3. Diagrama de Classes Simplificado](#-43-diagrama-de-classes-simplificado)
 - [5. Ferramentas utilizadas](#5-ferramentas-utilizadas)
+- [6. Licença](#6-licença)
 
 
 
@@ -40,7 +42,8 @@
 ---
 # 1. Descrição
 
-Projeto usado como exemplo na disciplina de Engenharia de Software e programação, este projeto apresenta várias situações que podem ser tratadas no desenvolvimento de um sistema com foco no uso de [CRUD](https://pt.wikipedia.org/wiki/CRUD) em [MVC](https://pt.wikipedia.org/wiki/MVC) em aplicações comerciais e podem ser abordadas em disciplinas como programação, banco de dados e engenharia de software.
+Projeto usado como exemplo na disciplina de Engenharia de Software e programação, este projeto apresenta várias situações que podem ser tratadas no desenvolvimento de um sistema com foco no uso de [CRUD](https://pt.wikipedia.org/wiki/CRUD) em [MVC](https://pt.wikipedia.org/wiki/MVC) em aplicações comerciais e podem ser abordadas principalmente nas disciplinas como programação, banco de dados e engenharia de software, e em disciplinas com assuntos correlatos como: testes de software, usabilidade entre outros.
+
 
 ---
 # 2. Detalhes da documentação
@@ -55,9 +58,10 @@ Este projeto usa uma estrutura de pastas no estilo MVC, coloque o projeto dentro
 # 3. Objetivo
 
 ```
-Fornecer um projeto de exemplo ou model (template) para que 
+Fornecer um projeto de exemplo ou modelo (template) para que 
 terceiros (alunos) se possam fazer adaptações futuras em 
-outras situações a partir de código básico.
+outras situações a partir de código básico que requeirão o uso de
+CRUD (principalmente em projeto cujo foco sejam aplicações comerciais).
 ```
 
 ## 3.1. Conteúdo do projeto
@@ -81,6 +85,8 @@ imagens no banco de dados, gráficos, exportação de dados.
 
 ### 3.1.5. Documentação de código
 
+É gerado pelo script documentador.py. O script percorre a estrutura do projeto, extrai conteúdos e gera o arquivo documentacao.md com trechos de código, estruturas de diretórios, diagramas Mermaid (UML) e detalhes adicionais como logs e imagens.
+
 ### 3.1.6. Docstrings
 
 ### 3.1.7. Funções
@@ -103,9 +109,17 @@ imagens no banco de dados, gráficos, exportação de dados.
 
 ### 3.1.16. Exportação de dados
 
+### 3.1.17. Carregamento de imagem (wallpaper)
+
+
 ## 3.2. Limitações
 
-Este projeto não aborda os seguintes elementos:
+Este projeto não aborda o seguinte:
+
+1. Apesar de ser um Script Python, ele não foi testado no Linux.
+2. Não é objetivo deste projeto atender um negócio específico.
+3. Não possui uma versão web nem mobile, o projeto roda em um desktop.
+4. Não possui mecanismo de autenticação (controle de acesso).
 
 
 ### 3.3. Diagrama de sub pastas do projeto:
@@ -219,8 +233,13 @@ classDiagram
 ---
 # 5. Ferramentas utilizadas
 
-1. Geração de prompt e código via ChatGPT
-2. Anaconda + IDE Spyder
-3. Banco de dados MariaDB via Laragon
-4. Github desktop
-5. Visual Studio Code
+1. Geração de prompt e código via [ChatGPT](https://chatgpt.com/)
+2. [Anaconda](https://www.anaconda.com/download) + [IDE Spyder](https://www.spyder-ide.org/download)
+3. Banco de dados [MariaDB](https://mariadb.org/download/) via [Laragon](https://laragon.org/download/)
+4. [Github desktop](https://desktop.github.com/download/)
+5. Visual Studio Code com as extensões para markdown: Markdown All in One, Markdownlint, Markdown Preview Showdoen (MDPS), Markdown Preview GitHub Styling, Mermaid Markdown Syntax Highlight.
+
+---
+# 6. Licença
+
+
