@@ -66,6 +66,9 @@ Hora de Geração: 18:27:18
   - [📁 Pasta `logs/`](#-pasta-logs-1)
   - [📁 Pasta `documentacao/`](#-pasta-documentacao-1)
     - [📌 Notas Finais](#-notas-finais)
+    - [🖼️ Wallpaper do Sistema](#️-wallpaper-do-sistema)
+  - [📊 Diagramas UML (Mermaid)](#-diagramas-uml-mermaid)
+    - [📦 Diagrama de Pacotes](#-diagrama-de-pacotes)
     - [🧭 Diagrama de Navegação](#-diagrama-de-navegação)
     - [🧱 Diagrama de Classes Simplificado](#-diagrama-de-classes-simplificado)
     - [📌 Notas Finais](#-notas-finais-1)
@@ -3256,7 +3259,7 @@ class ReportAlunos(ctk.CTkToplevel):
 
 - Modifique `gerar_documentacao.py` para personalizar a extração ou filtros.
 
-```
+
 
 ### 🖼️ Wallpaper do Sistema
 

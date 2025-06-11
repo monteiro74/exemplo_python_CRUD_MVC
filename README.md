@@ -1,21 +1,42 @@
 # Projeto exemplo de CRUD em Python
 
-Projeto usado como exemplo na disciplina de Engenharia de Software e programação.
+- [Projeto exemplo de CRUD em Python](#projeto-exemplo-de-crud-em-python)
+- [1. Descrição](#1-descrição)
+- [2. Detalhes da documentação](#2-detalhes-da-documentação)
+- [3. Objetivo](#3-objetivo)
+  - [3.1. Esta contido deste projeto](#31-esta-contido-deste-projeto)
+  - [3.2. Descrição de pastas](#32-descrição-de-pastas)
+  - [3.3. Algumas telas do sistema](#33-algumas-telas-do-sistema)
+- [4. Diagramas UML](#4-diagramas-uml)
+  - [📦 4.1. Diagrama de Pacotes](#-41-diagrama-de-pacotes)
+  - [🧭 4.2. Diagrama de Navegação](#-42-diagrama-de-navegação)
+  - [🧱 4.3. Diagrama de Classes Simplificado](#-43-diagrama-de-classes-simplificado)
 
-Na pasta documentacao estão os detalhes de cada elemento deste projeto descritos no arquivo **documentacao.md**.
 
-Para rodar este projeto, rode o arquivo main.py em qualquer IDE Python.
+---
+# 1. Descrição
 
-Este projeto usa uma estrutura de pastas no estilo MVC, dentro de C:\exemplo, neste caso:
+Projeto usado como exemplo na disciplina de Engenharia de Software e programação, este projeto apresenta várias situações que podem ser tratadas no desenvolvimento de um sistema com foco no uso de CRUD em aplicações comerciais e podem ser abordadas em disciplinas como programação, banco de dados e engenharia de software.
 
-Objetivo deste programa:
+---
+# 2. Detalhes da documentação
+
+Na pasta documentacao estão os detalhes de cada elemento deste projeto descritos no arquivo **documentacao.md**. A documentação gerada na pasta documentacao foi feita rodando o arquivo documentador.py.
+
+Para rodar este projeto, rode o arquivo main.py em qualquer IDE Python, por exemplo sugerimos a IDE [Spyder](https://www.spyder-ide.org/).
+
+Este projeto usa uma estrutura de pastas no estilo MVC, coloque o projeto dentro de uma pasta na rais do seu drive, por exemplo C:\exemplo.
+
+---
+# 3. Objetivo
 
 ```
 Fornecer um projeto de exemplo ou template para que se possam 
 fazer adaptações futuras em outras situações com um código básico.
 ```
 
-Esta contido deste projeto:
+## 3.1. Esta contido deste projeto
+
 ```
 Grid, forms, mestre-detalhes, documentação de código, 
 docstrings, funções, relatórios, forms modais, script sql, acesso 
@@ -42,7 +63,7 @@ Na raiz do projeto temos 3 arquivos:
 * logs.py o gerador de logs das ações feitas dentro do programa
 * documentador.py o gerador de documentação em formato markdown
 
-As pastas são as seguintes:
+## 3.2. Descrição de pastas
 
 **controller**: Contém a lógica de negócio e controladores que intermediam entre a interface gráfica e o banco de dados.
 
@@ -58,7 +79,7 @@ As pastas são as seguintes:
 
 **view**: Define as interfaces gráficas da aplicação utilizando [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter).
 
-## Algumas telas do sistema
+## 3.3. Algumas telas do sistema
 
 ![Tela1](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/tela1.PNG)
 
@@ -73,4 +94,61 @@ As pastas são as seguintes:
 ![Tela6](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/tela6.png)
 
 ![Tela7](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/tela7.png)
+
+---
+# 4. Diagramas UML
+
+## 📦 4.1. Diagrama de Pacotes
+
+```mermaid
+graph LR
+    Main --> View
+    Main --> Controller
+    Main --> Model
+    View -->|usa| Controller
+    Controller -->|acessa| Model
+    Model -->|conecta| DB[(MySQL)]
+```
+
+## 🧭 4.2. Diagrama de Navegação
+
+```mermaid
+flowchart TD
+    Menu[Menu Principal] --> GridAlunos
+    Menu --> FormAlunos
+    Menu --> GridPets
+    Menu --> FormIdade
+    Menu --> FormQuantidade
+    Menu --> ReportPDF
+    Menu --> Sobre
+    Menu --> Licenca
+```
+
+## 🧱 4.3. Diagrama de Classes Simplificado
+
+```mermaid
+classDiagram
+    class Aluno {
+        +matricula: str
+        +nome: str
+        +curso: str
+        +idade: int
+        +sexo: str
+        +foto: blob
+    }
+    class Pet {
+        +id: int
+        +apelido: str
+        +raca: str
+        +data_nascimento: date
+        +cpf_dono: str
+    }
+    class ConexaoDB {
+        +ler_conexao()
+        +obter_conexao()
+    }
+    Aluno --> Pet : "1 tem N"
+    ConexaoDB <.. Aluno : usa
+    ConexaoDB <.. Pet : usa
+```
 
