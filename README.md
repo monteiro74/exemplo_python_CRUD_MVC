@@ -281,7 +281,7 @@ Na raiz do projeto temos 3 arquivos:
 
 <img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/form_alunos.png" alt="form_alunos.py" width="400"/>
 
-![Tela7](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/tela7.png)
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/mestre_detalhe.png" alt="form_mestre_detalhe.py" width="600"/>
 
 ---
 # 4. Diagramas UML
