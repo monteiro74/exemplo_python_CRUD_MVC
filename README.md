@@ -198,9 +198,13 @@ O arquivo de log, logs.csv este formato com ponto e vírgula, pode ser lido por 
 
 ### 3.1.13. Tratamento de erros (try...except)
 
-<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/try_except3.png" alt="Bloco Try...Except" width="500"/>
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/try_except3.png" alt="Bloco Try...Except" width="600"/>
 
 ### 3.1.14. Gravação de imagens no banco de dados
+
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/form_alunos.png" alt="campo Blob" width="400"/>
+
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/form_alunos.png" alt="campo Blob" width="400"/>
 
 ### 3.1.15. Gráficos
 
