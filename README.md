@@ -135,6 +135,8 @@ graph TD
     exemplo --> documentacao
 ```
 
+![Pastas do projeto](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/pastas.png?raw=true)
+
 Na raiz do projeto temos 3 arquivos:
 
 * main.py o programa principal
