@@ -23,7 +23,6 @@
     - [3.1.14. Gravação de imagens no banco de dados](#3114-gravação-de-imagens-no-banco-de-dados)
     - [3.1.15. Gráficos](#3115-gráficos)
     - [3.1.16. Exportação de dados](#3116-exportação-de-dados)
-    - [3.1.17. Carregamento de imagem (wallpaper)](#3117-carregamento-de-imagem-wallpaper)
   - [3.2. Limitações](#32-limitações)
     - [3.3. Diagrama de sub pastas do projeto:](#33-diagrama-de-sub-pastas-do-projeto)
   - [3.3.1. Descrição de pastas](#331-descrição-de-pastas)
@@ -33,7 +32,6 @@
   - [🧭 4.2. Diagrama de Navegação](#-42-diagrama-de-navegação)
   - [🧱 4.3. Diagrama de Classes Simplificado](#-43-diagrama-de-classes-simplificado)
 - [5. Ferramentas utilizadas](#5-ferramentas-utilizadas)
-- [6. Licença](#6-licença)
 
 
 
@@ -216,7 +214,7 @@ Campo long blob para armazenar imagem.
 
 ### 3.1.16. Exportação de dados
 
-### 3.1.17. Carregamento de imagem (wallpaper)
+![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/exportacao.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/exportacao.png)
 
 
 ## 3.2. Limitações
@@ -359,8 +357,3 @@ Bibliotecas Python:
 * tkinter
 * PIL Python Imaging Library
   
-
----
-# 6. Licença
-
-
