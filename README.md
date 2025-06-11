@@ -135,7 +135,7 @@ graph TD
     exemplo --> documentacao
 ```
 
-![Pastas do projeto](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/pastas.png?raw=true)
+
 
 Na raiz do projeto temos 3 arquivos:
 
@@ -158,6 +158,9 @@ Na raiz do projeto temos 3 arquivos:
 **model**: Implementa a conexão e configuração com o banco de dados.
 
 **view**: Define as interfaces gráficas da aplicação utilizando [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter).
+
+
+![Pastas do projeto](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/pastas.png?raw=true)
 
 ## 3.4. Algumas telas do sistema
 
@@ -235,11 +238,20 @@ classDiagram
 ---
 # 5. Ferramentas utilizadas
 
-1. Geração de prompt e código via [ChatGPT](https://chatgpt.com/)
-2. [Anaconda](https://www.anaconda.com/download) + [IDE Spyder](https://www.spyder-ide.org/download)
-3. Banco de dados [MariaDB](https://mariadb.org/download/) via [Laragon](https://laragon.org/download/)
-4. [Github desktop](https://desktop.github.com/download/)
+1. Geração de prompt e código via [ChatGPT](https://chatgpt.com/).
+2. [Anaconda](https://www.anaconda.com/download) + [IDE Spyder](https://www.spyder-ide.org/download).
+3. Banco de dados [MariaDB](https://mariadb.org/download/) via [Laragon](https://laragon.org/download/).
+4. [Github desktop](https://desktop.github.com/download/).
 5. Visual Studio Code com as extensões para markdown: Markdown All in One, Markdownlint, Markdown Preview Showdoen (MDPS), Markdown Preview GitHub Styling, Mermaid Markdown Syntax Highlight.
+
+Bibliotecas Python:
+
+* [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
+* os
+* mysql
+* tkinter
+* PIL Python Imaging Library
+  
 
 ---
 # 6. Licença
