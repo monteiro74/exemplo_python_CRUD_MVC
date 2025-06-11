@@ -85,7 +85,10 @@ imagens no banco de dados, gráficos, exportação de dados.
 
 Exemplo definido em grid_alunos.py
 
-![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/grid_alunos.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/grid_alunos.png?raw=true)
+![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/grid_alunos.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/grid_alunos.png)
+
+
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/grid_alunos.png" alt="grid_alunos.py" width="200"/>
 
 ### 3.1.3. Form
 
