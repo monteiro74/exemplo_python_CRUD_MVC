@@ -119,7 +119,7 @@ Exemplo:
 
 O relatório é gerado por report_alunos.py e produz como saída um PDF na pasta raiz do projeto.
 
-![]()
+![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/relatorio.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/relatorio.png)
 
 
 
