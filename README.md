@@ -105,6 +105,10 @@ Exemplo definido em form_mestre_detalhe.py
 
 ### 3.1.6. Docstrings
 
+Uma docstring é uma literal de string que ocorre como a primeira instrução na definição de um módulo, função, classe ou método. Ela é usada para documentar o código, explicando o que ele faz, seus parâmetros e seus valores de retorno. Docstrings são escritas usando aspas triplas (""" ou ''').
+
+
+
 ### 3.1.7. Funções
 
 ### 3.1.8. Relatórios
