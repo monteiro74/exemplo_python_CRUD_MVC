@@ -154,7 +154,45 @@ Este exemplo trabalho com  duas tabelas, são elas:
 
 ### 3.1.11. Acesso ao banco de dados 
 
+O programa deverá ler o arquivo conexao.con onde estão os parâmetros para conectar com o banco MySQL (servidor, conta, senha e banco). Abaixo estão as duas funções que conectar o sistema como o banco de dados.
+
+```python
+def ler_conexao(arquivo='conexao.con'):
+    """Lê as configurações de conexão a partir do arquivo .con dentro da mesma pasta."""
+    # Descobre o diretório onde este script (conexao_db.py) está localizado
+    pasta_atual = os.path.dirname(__file__)
+    # Junta esse diretório com o nome do arquivo
+    caminho_completo = os.path.join(pasta_atual, arquivo)
+
+    config = {}
+    with open(caminho_completo, 'r', encoding='utf-8') as f:
+        for linha in f:
+            if '=' in linha:
+                chave, valor = linha.strip().strip(';').split('=')
+                config[chave.strip()] = valor.strip().strip("'")
+    return config
+
+def obter_conexao():
+    """Estabelece a conexão com o banco de dados usando as configurações lidas."""
+    config = ler_conexao()  # por padrão, 'conexao.con'
+    try:
+        conn = mysql.connector.connect(
+            host=config['host'],
+            port=config['port'],
+            database=config['database'],
+            user=config['user'],
+            password=config['password']
+        )
+        return conn
+    except mysql.connector.Error as e:
+        print(f"Erro de conexão: {e}")
+        raise
+```
+
+
 ### 3.1.12. Geração de eventos e logs
+
+
 
 ### 3.1.13. Tratamento de erros (try...except)
 
