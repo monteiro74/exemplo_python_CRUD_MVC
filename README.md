@@ -202,9 +202,11 @@ O arquivo de log, logs.csv este formato com ponto e vírgula, pode ser lido por 
 
 ### 3.1.14. Gravação de imagens no banco de dados
 
-<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/form_alunos.png" alt="campo Blob" width="400"/>
+Campo long blob para armazenar imagem.
 
-<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/form_alunos.png" alt="campo Blob" width="400"/>
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/campo_blob0.png" alt="campo Blob" width="400"/>
+
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/campo_blob.png?raw=true" alt="campo Blob" width="400"/>
 
 ### 3.1.15. Gráficos
 
