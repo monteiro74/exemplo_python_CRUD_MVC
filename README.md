@@ -110,12 +110,12 @@ Uma docstring é uma literal de string que ocorre como a primeira instrução na
 
 Exemplo:
 
-<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/docstrings.png" alt="docstrings" width="500"/>
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/docstrings.png" alt="docstrings" width="700"/>
 
 
 ### 3.1.7. Funções
 
-<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/funcao.png" alt="funcoes" width="500"/>
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/funcao.png" alt="funcoes" width="600"/>
 
 ### 3.1.8. Relatórios
 
