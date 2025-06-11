@@ -95,6 +95,8 @@ Exemplo definido em form_alunos.py
 
 ### 3.1.4. Mestre detalhe
 
+Exemplo definido em form_mestre_detalhe.py
+
 ![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/mestre_detalhe.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/mestre_detalhe.png)
 
 ### 3.1.5. Documentação de código
