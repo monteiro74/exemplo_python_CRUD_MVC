@@ -113,7 +113,7 @@ Exemplo:
 
 ### 3.1.7. Funções
 
-![]()
+![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/funcao.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/funcao.png)
 
 ### 3.1.8. Relatórios
 
