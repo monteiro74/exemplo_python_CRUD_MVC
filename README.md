@@ -212,6 +212,8 @@ Campo long blob para armazenar imagem.
 
 ### 3.1.15. Gráficos
 
+<img src="https://github.com/monteiro74/exemplo_python/blob/main/documentacao/grafico.png?raw=true" alt="graficos" width="600"/>
+
 ### 3.1.16. Exportação de dados
 
 ### 3.1.17. Carregamento de imagem (wallpaper)
