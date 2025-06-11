@@ -77,6 +77,8 @@ imagens no banco de dados, gráficos, exportação de dados.
 
 ### 3.1.1. Menu
 
+É definido no arquivo main.py
+
 ![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/menu.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/menu.png)
 
 ### 3.1.2. Grid
@@ -104,6 +106,8 @@ imagens no banco de dados, gráficos, exportação de dados.
 ### 3.1.12. Geração de eventos e logs
 
 ### 3.1.13. Tratamento de erros (try...except)
+
+![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/try_except3.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/try_except3.png)
 
 ### 3.1.14. Gravação de imagens no banco de dados
 
