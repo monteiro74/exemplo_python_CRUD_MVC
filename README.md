@@ -121,11 +121,31 @@ O relatório é gerado por report_alunos.py e produz como saída um PDF na pasta
 
 ![https://github.com/monteiro74/exemplo_python/blob/main/documentacao/relatorio.png](https://github.com/monteiro74/exemplo_python/blob/main/documentacao/relatorio.png)
 
-
-
 ### 3.1.9. Form modal
 
+Exemplos de chamadas modal a partir do form main, estes exemplos estão em main.py.
+
+```python
+def abrir_grid_alunos(self):
+    ...
+    form = GridAlunos(self)
+    form.transient(self)
+    form.grab_set()
+    form.focus_set()
+```
+
+```python
+def abrir_form_alunos(self):
+    ...
+    form = FormAlunos(self)
+    form.transient(self)
+    form.grab_set()
+    form.focus_set()
+```
+
 ### 3.1.10. Script SQL
+
+
 
 ### 3.1.11. Acesso ao banco de dados 
 
