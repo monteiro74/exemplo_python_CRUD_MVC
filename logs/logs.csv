@@ -929,3 +929,51 @@
 2025-06-10;16:38:13;grid_alunos;editar_selecionado
 2025-06-10;16:38:13;form_alunos;__init__
 2025-06-10;16:38:13;form_alunos;carregar_dados
+2025-06-10;20:24:55;main;Script main.py iniciado
+2025-06-10;20:24:55;main;Entrando em MainView.__init__
+2025-06-10;20:24:55;main;Chamou super().__init__
+2025-06-10;20:27:59;grid_alunos;__init__
+2025-06-10;20:27:59;grid_alunos;atualizar_lista
+2025-06-10;20:28:15;grid_alunos;__init__
+2025-06-10;20:28:15;grid_alunos;atualizar_lista
+2025-06-10;20:28:20;grid_alunos;__init__
+2025-06-10;20:28:20;grid_alunos;atualizar_lista
+2025-06-10;20:28:27;form_alunos;__init__
+2025-06-10;20:28:51;main;Script main.py iniciado
+2025-06-10;20:28:51;main;Entrando em MainView.__init__
+2025-06-10;20:28:51;main;Chamou super().__init__
+2025-06-10;20:28:55;grid_alunos;__init__
+2025-06-10;20:28:55;grid_alunos;atualizar_lista
+2025-06-10;20:29:20;grid_alunos;editar_selecionado
+2025-06-10;20:29:20;form_alunos;__init__
+2025-06-10;20:29:20;form_alunos;carregar_dados
+2025-06-10;20:29:57;form_alunos;__init__
+2025-06-10;20:30:01;grid_pets;__init__
+2025-06-10;20:32:13;main;Script main.py iniciado
+2025-06-10;20:32:13;main;Entrando em MainView.__init__
+2025-06-10;20:32:13;main;Chamou super().__init__
+2025-06-10;20:39:27;main;Script main.py iniciado
+2025-06-10;20:39:27;main;Entrando em MainView.__init__
+2025-06-10;20:39:27;main;Chamou super().__init__
+2025-11-04;20:49:56;main;Script main.py iniciado
+2025-11-04;20:49:56;main;Entrando em MainView.__init__
+2025-11-04;20:49:56;main;Chamou super().__init__
+2025-11-04;20:49:56;main;Abrindo tela de login
+2025-11-04;20:49:56;FormLogin;__init__
+2025-11-04;20:49:56;FormLogin;criar_widgets
+2025-11-04;20:50:03;FormLogin;fazer_login
+2025-11-04;20:50:03;user_controller;autenticar_usuario
+2025-11-04;20:50:05;FormLogin;login_falhou_usuario:admin
+2025-11-04;20:50:10;FormLogin;fazer_login
+2025-11-04;20:50:10;user_controller;autenticar_usuario
+2025-11-04;20:50:12;FormLogin;login_falhou_usuario:admin
+2025-11-04;20:50:19;FormLogin;fazer_login
+2025-11-04;20:50:19;user_controller;autenticar_usuario
+2025-11-04;20:50:21;FormLogin;login_falhou_usuario:admin
+2025-11-04;20:50:34;FormLogin;fazer_login
+2025-11-04;20:50:34;user_controller;autenticar_usuario
+2025-11-04;20:50:34;FormLogin;login_falhou_usuario:admin
+2025-11-04;20:50:38;FormLogin;fazer_login
+2025-11-04;20:50:38;user_controller;autenticar_usuario
+2025-11-04;20:50:38;FormLogin;login_sucesso_usuario:admin
+2025-11-04;20:50:39;main;Login realizado com sucesso - sistema pronto para uso

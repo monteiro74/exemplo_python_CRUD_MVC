@@ -31,6 +31,7 @@ from view.report_alunos import ReportAlunos
 from view.form_sobre import FormSobre
 from view.form_licenca import FormLicenca
 from view.grid_pets import GridPets
+from view.form_login import FormLogin
 
 from logger import log_event
 
@@ -91,6 +92,9 @@ class MainView(ctk.CTk):
 
         # Configura a barra de menus superior
         self.configurar_menu()
+
+        # Abre a tela de login após inicializar a janela
+        self.after(100, self.mostrar_login)
 
     def _center_window(self):
         """
@@ -320,6 +324,23 @@ class MainView(ctk.CTk):
             form.focus_set()
         except Exception as e:
             messagebox.showerror("Erro ao abrir Licença", str(e))
+
+    def mostrar_login(self):
+        """
+        Exibe a tela de login ao iniciar o sistema.
+        """
+        log_and_print("Abrindo tela de login")
+        try:
+            login_form = FormLogin(self, self.on_login_success)
+        except Exception as e:
+            messagebox.showerror("Erro ao abrir Login", str(e))
+            self.quit()
+
+    def on_login_success(self):
+        """
+        Callback chamado quando o login é bem-sucedido.
+        """
+        log_and_print("Login realizado com sucesso - sistema pronto para uso")
 
 if __name__ == "__main__":
     """
