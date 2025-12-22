@@ -14,6 +14,7 @@
     - [📥 Pré-requisitos](#-pré-requisitos)
     - [⚡ Instalação Rápida](#-instalação-rápida)
   - [🎓 Finalidade Acadêmica](#-finalidade-acadêmica)
+    - [🎯 Objetivo Pedagógico](#-objetivo-pedagógico)
 - [1. 📖 Descrição](#1--descrição)
 - [2. 📚 Detalhes da documentação](#2--detalhes-da-documentação)
 - [3. 🎯 Objetivo](#3--objetivo)
@@ -45,12 +46,27 @@
 - [5. 🛠️ Ferramentas utilizadas](#5-️-ferramentas-utilizadas)
 - [6. 🔧 Troubleshooting](#6--troubleshooting)
   - [6.1. ❌ Problemas Comuns](#61--problemas-comuns)
+    - [🔴 Erro: "No module named 'customtkinter'"](#-erro-no-module-named-customtkinter)
+    - [🔴 Erro: "Access denied for user"](#-erro-access-denied-for-user)
+    - [🔴 Erro: "Can't connect to MySQL server"](#-erro-cant-connect-to-mysql-server)
+    - [🔴 Erro: "Table 'alunos' doesn't exist"](#-erro-table-alunos-doesnt-exist)
+    - [🔴 Erro: "FileNotFoundError: wallpaper.jpg"](#-erro-filenotfounderror-wallpaperjpg)
+    - [🔴 Tela em branco ou congelada](#-tela-em-branco-ou-congelada)
+    - [🔴 Erro de encoding/caracteres especiais](#-erro-de-encodingcaracteres-especiais)
+    - [📞 Não encontrou solução?](#-não-encontrou-solução)
 - [7. 🤝 Como Contribuir](#7--como-contribuir)
+    - [📧 Entre em contato:](#-entre-em-contato)
+    - [🌟 Formas de Contribuir:](#-formas-de-contribuir)
 - [8. 📖 Como Citar em Trabalhos Acadêmicos](#8--como-citar-em-trabalhos-acadêmicos)
   - [8.1. 📝 Formato ABNT](#81--formato-abnt)
   - [8.2. 🔖 Formato BibTeX](#82--formato-bibtex)
   - [8.3. 💬 Citação em Texto](#83--citação-em-texto)
 - [9. 👨‍🏫 Créditos](#9--créditos)
+  - [🎓 Autor e Mantenedor](#-autor-e-mantenedor)
+    - [🌐 Contato](#-contato)
+    - [🙏 Agradecimentos](#-agradecimentos)
+    - [📜 Licença](#-licença)
+    - [⭐ Se este projeto foi útil para você, considere dar uma estrela no repositório!](#-se-este-projeto-foi-útil-para-você-considere-dar-uma-estrela-no-repositório)
 
 ---
 
@@ -139,8 +155,6 @@ Fornecer um **exemplo prático e completo** de desenvolvimento de aplicações d
 ✅ Sistema de logs e tratamento de erros
 
 **Este projeto serve como template base** para que estudantes possam adaptar e expandir conforme suas necessidades específicas de aprendizado e projetos acadêmicos.
-
----
 
 
 
@@ -543,7 +557,7 @@ Este projeto é mantido para fins educacionais. Se você deseja:
 ### 📧 Entre em contato:
 
 - **Site:** [www.pontodeensino.com](http://www.pontodeensino.com)
-- **Professor:** Dr. Edson Soares Monteiro
+- **Professor:** Dr. Emiliano Soares Monteiro
 - **Email:** Entre em contato através do site
 
 ### 🌟 Formas de Contribuir:
@@ -564,14 +578,14 @@ Se você utilizou este projeto em seu trabalho acadêmico (TCC, artigo, disserta
 ## 8.1. 📝 Formato ABNT
 
 ```
-MONTEIRO, Edson Soares. Projeto exemplo de CRUD em Python estruturado com MVC.
+MONTEIRO, Emiliano Soares. Projeto exemplo de CRUD em Python estruturado com MVC.
 2025. Disponível em: <https://github.com/monteiro74/exemplo_python_CRUD_MVC>.
 Acesso em: [dia] [mês abreviado]. [ano].
 ```
 
 **Exemplo:**
 ```
-MONTEIRO, Edson Soares. Projeto exemplo de CRUD em Python estruturado com MVC.
+MONTEIRO, Emiliano Soares. Projeto exemplo de CRUD em Python estruturado com MVC.
 2025. Disponível em: <https://github.com/monteiro74/exemplo_python_CRUD_MVC>.
 Acesso em: 22 dez. 2025.
 ```
@@ -580,7 +594,7 @@ Acesso em: 22 dez. 2025.
 
 ```bibtex
 @misc{monteiro2025pythoncrud,
-  author = {Monteiro, Edson Soares},
+  author = {Monteiro, Emiliano Soares},
   title = {Projeto exemplo de CRUD em Python estruturado com MVC},
   year = {2025},
   publisher = {GitHub},
@@ -604,9 +618,9 @@ Acesso em: 22 dez. 2025.
 
 ## 🎓 Autor e Mantenedor
 
-**Prof. Dr. Edson Soares Monteiro**
+**Prof. Dr. Emiliano Soares Monteiro**
 
-Este projeto foi desenvolvido e é mantido pelo Prof. Dr. Edson Soares Monteiro como material didático para disciplinas de Engenharia de Software, Programação e Banco de Dados.
+Este projeto foi desenvolvido e é mantido pelo Prof. Dr. Emiliano Soares Monteiro como material didático para disciplinas de Engenharia de Software, Programação e Banco de Dados.
 
 ### 🌐 Contato
 
@@ -630,5 +644,5 @@ Este projeto é disponibilizado como material educacional aberto para fins acad�
 
 **Desenvolvido com 💙 para fins educacionais**
 
-**© 2025 Prof. Dr. Edson Soares Monteiro - Todos os direitos reservados para fins educacionais**
+**© 2025 Prof. Dr. Emiliano Soares Monteiro - Todos os direitos reservados para fins educacionais**
 
