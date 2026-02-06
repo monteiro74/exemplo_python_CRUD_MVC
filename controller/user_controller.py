@@ -1,9 +1,24 @@
-"""
-Módulo: user_controller.py
-Descrição: Controller responsável pela autenticação de usuários
-Autor: Sistema
-Data: 2025-11-04
-"""
+# -*- coding: utf-8 -*-
+# ==============================================================================
+# Nome do Script: user_controller.py - Operações de autenticação de usuários
+# Descrição: Este script fornece funções para autenticar, criar e verificar
+#            usuários no banco de dados, utilizando hash SHA-256 para senhas.
+#
+# Autor: Nome do aluno
+# Data de Criação:
+# Hora de Criação:
+#
+# Dependências:
+# - model.conexao_db: Para obter a conexão com o banco de dados.
+# - hashlib: Para geração de hash SHA-256 das senhas.
+# - logger: Para registro de eventos do sistema.
+#
+# Uso: Este módulo deve ser importado pelos componentes da camada de view e
+#      controller para manipulação de autenticação de usuários.
+# ==============================================================================
+
+# controller/user_controller.py
+# Operações de autenticação de usuários
 
 import hashlib
 from model.conexao_db import obter_conexao

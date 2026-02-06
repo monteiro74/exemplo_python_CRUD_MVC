@@ -1,4 +1,23 @@
+# -*- coding: utf-8 -*-
+# ==============================================================================
+# Nome do Script: pet_controller.py - Operações CRUD para Pets
+# Descrição: Este script fornece funções para criar, ler, atualizar e excluir
+#            registros de pets no banco de dados.
+#
+# Autor: Nome do aluno
+# Data de Criação:
+# Hora de Criação:
+#
+# Dependências:
+# - model.conexao_db: Para obter a conexão com o banco de dados.
+#
+# Uso: Este módulo deve ser importado pelos componentes da camada de view e
+#      controller para manipulação de dados de pets.
+# ==============================================================================
+
 # controller/pet_controller.py
+# Operações CRUD para Pets
+
 from model.conexao_db import obter_conexao
 
 def obter_pets():
