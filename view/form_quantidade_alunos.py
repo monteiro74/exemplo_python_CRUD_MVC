@@ -25,29 +25,46 @@ import matplotlib.pyplot as plt
 from controller.aluno_controller import contar_alunos
 
 class FormQuantidadeAlunos(ctk.CTkToplevel):
+    """
+    Janela modal que exibe um gráfico de barras com o número total
+    de alunos cadastrados no banco de dados.
+
+    Utiliza matplotlib integrado ao CustomTkinter via FigureCanvasTkAgg.
+
+    Parâmetros:
+        master: Janela principal que chama este formulário.
+    """
+
     def __init__(self, master=None):
+        """
+        Inicializa o formulário de gráfico de quantidade, consulta o
+        total de alunos via controller e renderiza o gráfico de barras.
+        """
         super().__init__(master)
         self.title("Gráfico de Quantidade de Alunos")
         self.geometry("500x400")
 
-        # Busca os dados
+        # Consulta a contagem total de alunos via controller
         total_alunos = contar_alunos()
 
-        # Plotar o gráfico
+        # Cria o gráfico de barras com matplotlib
         fig, ax = plt.subplots()
         ax.bar(["Alunos"], [total_alunos])
         ax.set_title("Quantidade Total de Alunos")
         ax.set_ylabel("Total")
 
-        # Inserir no Tkinter
+        # Integra o gráfico matplotlib na janela CustomTkinter
         canvas = FigureCanvasTkAgg(fig, master=self)
         canvas.get_tk_widget().pack(fill="both", expand=True)
         canvas.draw()
 
-        # Centraliza a janela
+        # Centraliza a janela na tela
         self._center_window()
 
     def _center_window(self):
+        """
+        Centraliza a janela no centro da tela do usuário.
+        """
         self.update_idletasks()
         w = 500
         h = 400

@@ -1,59 +1,85 @@
-"""
-Módulo: form_login.py
-Descrição: Formulário de login do sistema
-Autor: Sistema
-Data: 2025-11-04
-"""
+# -*- coding: utf-8 -*-
+# ==============================================================================
+# Nome do Script: form_login.py - Formulário de login do sistema
+# Descrição: Este script exibe o formulário de autenticação do usuário,
+#            validando login e senha via hash SHA-256 no banco de dados.
+#
+# Autor: Nome do aluno
+# Data de Criação:
+# Hora de Criação:
+#
+# Dependências:
+# - customtkinter: Para criação da interface gráfica.
+# - controller.user_controller: Para autenticação de usuários.
+# - logger: Para registro de eventos do sistema.
+#
+# Uso: Este formulário é exibido automaticamente ao iniciar a aplicação
+#      (chamado por main.py via self.after).
+# ==============================================================================
+
+# view/form_login.py
+# Formulário modal de autenticação de usuários
 
 import customtkinter as ctk
 from tkinter import messagebox
 from controller.user_controller import autenticar_usuario
 from logger import log_event
 
+
 class FormLogin(ctk.CTkToplevel):
     """
-    Classe que representa o formulário de login
+    Janela modal de login para autenticação do usuário.
+
+    Exibe campos de login e senha, valida as credenciais contra o banco
+    de dados e executa um callback em caso de sucesso. Se o usuário
+    fechar sem autenticar, a aplicação inteira é encerrada.
+
+    Parâmetros:
+        parent: Janela principal que chama este formulário.
+        on_success_callback: Função executada após login bem-sucedido.
     """
 
     def __init__(self, parent, on_success_callback):
         """
-        Inicializa o formulário de login
+        Inicializa o formulário de login, configura a janela como modal
+        e cria todos os widgets de entrada e botões de ação.
 
         Args:
-            parent: Janela pai
-            on_success_callback: Função a ser chamada quando login for bem-sucedido
+            parent: Janela pai (MainView).
+            on_success_callback: Função a ser chamada quando login for bem-sucedido.
         """
         super().__init__(parent)
 
         log_event("FormLogin", "__init__")
 
         self.on_success_callback = on_success_callback
-        self.autenticado = False
+        self.autenticado = False  # Flag de controle de autenticação
 
         # Configurações da janela
         self.title("Login - Sistema de Gerenciamento")
         self.geometry("400x300")
         self.resizable(False, False)
 
-        # Centraliza a janela
+        # Centraliza a janela na tela
         self.centralizar_janela()
 
-        # Define como modal
+        # Define como modal (bloqueia interação com a janela pai)
         self.transient(parent)
         self.grab_set()
 
-        # Criar interface
+        # Criar interface de widgets
         self.criar_widgets()
 
-        # Protocolo para fechar a janela
+        # Intercepta o evento de fechar janela (X) para tratamento especial
         self.protocol("WM_DELETE_WINDOW", self.on_closing)
 
-        # Foco no campo de login
+        # Foco no campo de login para digitação imediata
         self.entry_login.focus()
 
     def centralizar_janela(self):
         """
-        Centraliza a janela na tela
+        Centraliza a janela no centro da tela do usuário,
+        calculando as coordenadas com base nas dimensões da tela.
         """
         self.update_idletasks()
         largura = self.winfo_width()
@@ -64,11 +90,13 @@ class FormLogin(ctk.CTkToplevel):
 
     def criar_widgets(self):
         """
-        Cria os widgets do formulário
+        Cria e posiciona todos os widgets do formulário de login:
+        título, subtítulo, campos de entrada (login e senha),
+        binds de teclado (Enter) e botões de ação (Entrar/Cancelar).
         """
         log_event("FormLogin", "criar_widgets")
 
-        # Frame principal
+        # Frame principal que contém todos os widgets
         main_frame = ctk.CTkFrame(self)
         main_frame.pack(expand=True, fill="both", padx=20, pady=20)
 
@@ -153,7 +181,11 @@ class FormLogin(ctk.CTkToplevel):
 
     def fazer_login(self):
         """
-        Realiza o processo de autenticação
+        Realiza o processo de autenticação do usuário.
+
+        Valida se os campos foram preenchidos, chama o controller de
+        autenticação (SHA-256) e, em caso de sucesso, executa o callback
+        e fecha o formulário. Em caso de falha, limpa o campo de senha.
         """
         log_event("FormLogin", "fazer_login")
 
@@ -203,7 +235,11 @@ class FormLogin(ctk.CTkToplevel):
 
     def on_closing(self):
         """
-        Fecha a janela de login
+        Trata o evento de fechamento da janela de login.
+
+        Se o usuário não estiver autenticado, solicita confirmação
+        e encerra toda a aplicação (self.master.quit()). Se já estiver
+        autenticado, apenas fecha o formulário normalmente.
         """
         log_event("FormLogin", "on_closing")
 

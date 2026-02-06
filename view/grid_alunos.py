@@ -34,16 +34,32 @@ from view.form_alunos import FormAlunos
 from logger import log_event
 
 class GridAlunos(ctk.CTkToplevel):
+    """
+    Janela modal que exibe uma grade (Treeview) com todos os alunos cadastrados.
+
+    Fornece botões para adicionar, editar e excluir registros, além de
+    suporte a duplo-clique para edição. A lista é atualizada automaticamente
+    após cada operação CRUD via callback.
+
+    Parâmetros:
+        master: Janela principal que chama esta grade.
+    """
+
     def __init__(self, master=None):
+        """
+        Inicializa a grade de alunos, configura a Treeview com as colunas
+        (matrícula, nome, curso, idade, sexo), botões de ação e
+        carrega a lista de alunos do banco de dados.
+        """
         super().__init__(master)
         log_event("grid_alunos", "__init__")
         self.title("Lista de Alunos")
         self.geometry("800x400")
 
-        # Título
+        # Título da grade
         ctk.CTkLabel(self, text="Alunos Cadastrados", font=("Arial", 16)).pack(pady=10)
 
-        # Grid
+        # ─── Treeview com colunas de dados dos alunos ────────────────────
         self.tree = ttk.Treeview(
             self,
             columns=("matricula", "nome", "curso", "idade", "sexo"),
@@ -55,9 +71,9 @@ class GridAlunos(ctk.CTkToplevel):
         self.tree.heading("idade", text="Idade")
         self.tree.heading("sexo", text="Sexo")
         self.tree.pack(fill="both", expand=True, padx=10, pady=10)
-        self.tree.bind("<Double-1>", self.editar_selecionado)
+        self.tree.bind("<Double-1>", self.editar_selecionado)  # Duplo-clique abre edição
 
-        # Botões
+        # ─── Botões de ação ──────────────────────────────────────────────
         frame = ctk.CTkFrame(self)
         frame.pack(pady=10)
 
@@ -66,12 +82,15 @@ class GridAlunos(ctk.CTkToplevel):
         ctk.CTkButton(frame, text="Excluir", command=self.excluir).pack(side="left", padx=5)
         ctk.CTkButton(frame, text="Fechar", command=self.destroy).pack(side="left", padx=5)
 
-        self.atualizar_lista()
+        self.atualizar_lista()  # Carrega os dados iniciais
 
-        # Centraliza a janela
+        # Centraliza a janela na tela
         self._center_window()
 
     def _center_window(self):
+        """
+        Centraliza a janela no centro da tela do usuário.
+        """
         self.update_idletasks()
         w = 800
         h = 400
@@ -82,9 +101,13 @@ class GridAlunos(ctk.CTkToplevel):
         self.geometry(f"{w}x{h}+{x}+{y}")
 
     def atualizar_lista(self):
+        """
+        Recarrega a lista de alunos do banco de dados e atualiza a Treeview.
+        Limpa todos os itens existentes antes de inserir os novos.
+        """
         log_event("grid_alunos", "atualizar_lista")
         for i in self.tree.get_children():
-            self.tree.delete(i)
+            self.tree.delete(i)  # Limpa a tabela
         for aluno in obter_alunos():
             self.tree.insert(
                 "",
@@ -98,25 +121,40 @@ class GridAlunos(ctk.CTkToplevel):
             )
 
     def adicionar(self):
+        """
+        Abre o formulário de cadastro de um novo aluno (FormAlunos),
+        passando o callback de atualização da lista.
+        """
         log_event("grid_alunos", "adicionar")
         FormAlunos(self, atualizar_callback=self.atualizar_lista)
 
     def editar_selecionado(self, event=None):
+        """
+        Abre o formulário de edição do aluno selecionado na Treeview.
+        Exibe aviso se nenhum item estiver selecionado.
+
+        Args:
+            event: Evento de duplo-clique (opcional, None se via botão).
+        """
         log_event("grid_alunos", "editar_selecionado")
         item = self.tree.focus()
         if not item:
             messagebox.showwarning("Seleção", "Selecione um aluno.")
             return
-        matricula = self.tree.item(item)["values"][0]
+        matricula = self.tree.item(item)["values"][0]  # Obtém a matrícula da primeira coluna
         FormAlunos(self, matricula=matricula, atualizar_callback=self.atualizar_lista)
 
     def excluir(self):
+        """
+        Exclui o aluno selecionado na Treeview após confirmação do usuário.
+        Exibe aviso se nenhum item estiver selecionado.
+        """
         log_event("grid_alunos", "excluir")
         item = self.tree.focus()
         if not item:
             messagebox.showwarning("Seleção", "Selecione um aluno.")
             return
-        matricula = self.tree.item(item)["values"][0]
+        matricula = self.tree.item(item)["values"][0]  # Obtém a matrícula da primeira coluna
         if messagebox.askyesno("Confirmação", f"Deseja excluir o aluno {matricula}?"):
             deletar_aluno(matricula)
-            self.atualizar_lista()
+            self.atualizar_lista()  # Recarrega a lista após exclusão
