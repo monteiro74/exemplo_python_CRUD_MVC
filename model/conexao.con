@@ -1,5 +1,5 @@
 host='localhost';
 port='3306';
-database='eng_sw';
-user='root';
+database='exemplo';
+user='';
 password='';
