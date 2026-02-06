@@ -22,11 +22,23 @@ from model.conexao_db import obter_conexao
 
 
 def contar_alunos_por_faixa_etaria():
-    """Conta alunos agrupados por faixa etária."""
+    """
+    Conta a quantidade de alunos agrupados por faixa etária.
+
+    Utiliza uma expressão CASE no SQL para classificar as idades em
+    faixas predefinidas: 18-25, 26-30, 31-40, 41-50 e 51+.
+    O resultado é agrupado (GROUP BY) por faixa e contado (COUNT).
+
+    Returns:
+        list[dict]: Lista de dicionários com as chaves:
+                    - faixa_etaria (str): Rótulo da faixa (ex: '18-25').
+                    - quantidade (int): Número de alunos nessa faixa.
+    """
     conn = obter_conexao()
-    cursor = conn.cursor(dictionary=True)
+    cursor = conn.cursor(dictionary=True)  # Retorna resultados como dicionários
+    # Query com CASE para classificar idades em faixas etárias predefinidas
     query = """
-    SELECT 
+    SELECT
         CASE
             WHEN idade BETWEEN 18 AND 25 THEN '18-25'
             WHEN idade BETWEEN 26 AND 30 THEN '26-30'
@@ -39,17 +51,27 @@ def contar_alunos_por_faixa_etaria():
     GROUP BY faixa_etaria
     """
     cursor.execute(query)
-    dados = cursor.fetchall()
+    dados = cursor.fetchall()  # Obtém todas as faixas com suas contagens
     cursor.close()
     conn.close()
     return dados
 
+
 def contar_total_alunos():
-    """Conta o total de alunos cadastrados."""
+    """
+    Conta o total de alunos cadastrados no banco de dados.
+
+    Executa um SELECT COUNT(*) na tabela 'alunos' e retorna o valor
+    inteiro do primeiro campo da primeira linha do resultado.
+    Utilizada para exibição de gráficos de quantidade.
+
+    Returns:
+        int: Número total de alunos cadastrados.
+    """
     conn = obter_conexao()
     cursor = conn.cursor()
     cursor.execute("SELECT COUNT(*) FROM alunos")
-    total = cursor.fetchone()[0]
+    total = cursor.fetchone()[0]  # Extrai o valor escalar do resultado
     cursor.close()
     conn.close()
     return total
